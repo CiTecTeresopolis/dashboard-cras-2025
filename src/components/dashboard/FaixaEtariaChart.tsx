@@ -21,14 +21,13 @@ const FaixaEtariaChart = () => {
             formatter={(value: number) => [value.toLocaleString("pt-BR"), "Atendimentos"]}
             cursor={{ fill: "hsl(var(--muted) / 0.4)" }}
           />
-          <Bar dataKey="value" radius={[0, 8, 8, 0]} fill={`url(#barGradient)`} barSize={22}>
-            <defs>
-              <linearGradient id="barGradient" x1="0" y1="0" x2="1" y2="0">
-                <stop offset="0%" stopColor={CHART_COLORS[0]} stopOpacity={0.8} />
-                <stop offset="100%" stopColor={CHART_COLORS[0]} />
-              </linearGradient>
-            </defs>
-          </Bar>
+          <defs>
+            <linearGradient id="barGradient" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stopColor={CHART_COLORS[0]} stopOpacity={0.8} />
+              <stop offset="100%" stopColor={CHART_COLORS[0]} />
+            </linearGradient>
+          </defs>
+          <Bar dataKey="value" radius={[0, 8, 8, 0]} fill="url(#barGradient)" barSize={22} />
         </BarChart>
       </ResponsiveContainer>
     </ChartSection>
