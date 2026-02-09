@@ -1,8 +1,8 @@
 export const TOTAL_ATENDIMENTOS = 854;
 
 export const sexoData = [
-  { name: "Masculino", value: 525, fill: "hsl(var(--chart-1))" },
-  { name: "Feminino", value: 329, fill: "hsl(var(--chart-4))" },
+  { name: "Masculino", value: 525, fill: "#6a994e" },
+  { name: "Feminino", value: 329, fill: "#bc4749" },
 ];
 
 export const faixaEtariaData = [
@@ -23,11 +23,11 @@ export const escolaridadeData = [
 ];
 
 export const situacoesData = [
-  { name: "Violência Intrafamiliar", value: 417, fill: "hsl(var(--chart-4))" },
-  { name: "Situação de Rua", value: 335, fill: "hsl(var(--chart-1))" },
-  { name: "Trabalho Infantil", value: 81, fill: "hsl(var(--chart-3))" },
-  { name: "Abandono", value: 20, fill: "hsl(var(--chart-5))" },
-  { name: "Violência Patrimonial", value: 1, fill: "hsl(var(--chart-6))" },
+  { name: "Violência Intrafamiliar", value: 417, fill: "#bc4749" },
+  { name: "Situação de Rua", value: 335, fill: "#6a994e" },
+  { name: "Trabalho Infantil", value: 81, fill: "#a7c957" },
+  { name: "Abandono", value: 20, fill: "#f18701" },
+  { name: "Violência Patrimonial", value: 1, fill: "#7b2cbf" },
 ];
 
 export const situacaoPorSexo = [
@@ -59,10 +59,10 @@ export const servicosData = [
 ];
 
 export const CHART_COLORS = [
-  "hsl(var(--chart-1))",
-  "hsl(var(--chart-2))",
-  "hsl(var(--chart-3))",
-  "hsl(var(--chart-4))",
-  "hsl(var(--chart-5))",
-  "hsl(var(--chart-6))",
+  "#386641",
+  "#bc4749",
+  "#6a994e",
+  "#a7c957",
+  "#f18701",
+  "#f7b801",
 ];

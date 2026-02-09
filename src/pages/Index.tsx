@@ -20,7 +20,7 @@ const Index = () => {
         <div className="absolute bottom-0 right-1/4 w-80 h-80 rounded-full bg-accent/3 blur-3xl" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-12">
+      <div className="relative z-10 mx-auto px-4 md:px-6 py-8 md:py-12">
         <DashboardHeader />
 
         {/* KPI Cards */}
@@ -74,7 +74,8 @@ const Index = () => {
 
         {/* Footer */}
         <footer className="text-center py-8 text-xs text-muted-foreground/60 font-medium">
-          Dashboard CREAS 2025 · Dados extraídos da planilha de atendimentos
+          Prefeitura Municipal de Teresópolis // 2026 // Departamento de
+          Governança de Dados
         </footer>
       </div>
     </div>

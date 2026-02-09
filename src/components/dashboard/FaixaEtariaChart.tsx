@@ -1,4 +1,11 @@
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
 import { faixaEtariaData, CHART_COLORS } from "@/data/creas-data";
 import ChartSection from "./ChartSection";
 
@@ -11,14 +18,36 @@ const TOOLTIP_STYLE = {
 
 const FaixaEtariaChart = () => {
   return (
-    <ChartSection title="Faixa Etária" description="Distribuição dos atendidos por idade">
+    <ChartSection
+      title="Faixa Etária"
+      description="Distribuição dos atendidos por idade"
+    >
       <ResponsiveContainer width="100%" height={260}>
-        <BarChart data={faixaEtariaData} layout="vertical" margin={{ left: 10 }}>
-          <XAxis type="number" tick={{ fontSize: 12, fill: "hsl(var(--muted-foreground))" }} axisLine={false} tickLine={false} />
-          <YAxis dataKey="name" type="category" width={120} tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }} axisLine={false} tickLine={false} />
+        <BarChart
+          data={faixaEtariaData}
+          layout="vertical"
+          margin={{ left: 10 }}
+        >
+          <XAxis
+            type="number"
+            tick={{ fontSize: 12, fill: "hsl(var(--muted-foreground))" }}
+            axisLine={false}
+            tickLine={false}
+          />
+          <YAxis
+            dataKey="name"
+            type="category"
+            width={120}
+            tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+            axisLine={false}
+            tickLine={false}
+          />
           <Tooltip
             contentStyle={TOOLTIP_STYLE}
-            formatter={(value: number) => [value.toLocaleString("pt-BR"), "Atendimentos"]}
+            formatter={(value: number) => [
+              value.toLocaleString("pt-BR"),
+              "Atendimentos",
+            ]}
             cursor={{ fill: "hsl(var(--muted) / 0.4)" }}
           />
           <defs>
@@ -27,7 +56,12 @@ const FaixaEtariaChart = () => {
               <stop offset="100%" stopColor={CHART_COLORS[0]} />
             </linearGradient>
           </defs>
-          <Bar dataKey="value" radius={[0, 8, 8, 0]} fill="url(#barGradient)" barSize={22} />
+          <Bar
+            dataKey="value"
+            radius={[0, 8, 8, 0]}
+            fill="#6a994e"
+            barSize={22}
+          />
         </BarChart>
       </ResponsiveContainer>
     </ChartSection>

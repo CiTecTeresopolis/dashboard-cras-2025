@@ -1,4 +1,11 @@
-import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from "recharts";
+import {
+  PieChart,
+  Pie,
+  Cell,
+  ResponsiveContainer,
+  Legend,
+  Tooltip,
+} from "recharts";
 import { sexoData } from "@/data/creas-data";
 import ChartSection from "./ChartSection";
 
@@ -12,7 +19,10 @@ const TOOLTIP_STYLE = {
 
 const SexoChart = () => {
   return (
-    <ChartSection title="Distribuição por Sexo" description="Total de atendimentos por gênero">
+    <ChartSection
+      title="Distribuição por Sexo"
+      description="Total de atendimentos por gênero"
+    >
       <ResponsiveContainer width="100%" height={260}>
         <PieChart>
           <Pie
@@ -32,13 +42,19 @@ const SexoChart = () => {
           </Pie>
           <Tooltip
             contentStyle={TOOLTIP_STYLE}
-            formatter={(value: number) => [value.toLocaleString("pt-BR"), ""]}
+            formatter={(value: number) =>
+              `${[value.toLocaleString("pt-BR"), ""]}`
+            }
           />
           <Legend
             verticalAlign="bottom"
             iconType="circle"
             iconSize={10}
-            formatter={(value) => <span className="text-xs text-foreground ml-1 font-medium">{value}</span>}
+            formatter={(value) => (
+              <span className="text-xs text-foreground ml-1 font-medium">
+                {value}
+              </span>
+            )}
           />
         </PieChart>
       </ResponsiveContainer>

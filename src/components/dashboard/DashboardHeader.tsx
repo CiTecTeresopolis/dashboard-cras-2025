@@ -6,24 +6,29 @@ const DashboardHeader = () => {
       {/* Decorative orbs */}
       <div className="absolute -top-20 -right-20 w-60 h-60 rounded-full bg-white/5 blur-2xl" />
       <div className="absolute -bottom-16 -left-16 w-48 h-48 rounded-full bg-white/5 blur-2xl" />
-      
+
       <div className="relative z-10 flex items-start justify-between">
         <div className="flex items-center gap-4">
-          <div className="p-3 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
-            <Shield className="h-7 w-7" />
+          <div className="p-3 rounded-2xl bg-white backdrop-blur-sm border border-white/10">
+            <img src="logo.png" className="h-10 w-10" />
           </div>
           <div>
             <h1 className="text-2xl md:text-3xl font-black tracking-tight">
-              CREAS 2025
+              Centro de Referência Especializado de Assistência Social (CREAS)
             </h1>
-            <p className="text-sm text-primary-foreground/60 mt-1 font-medium">
-              Centro de Referência Especializado de Assistência Social
+            <p className="text-sm text-primary-foreground/80 mt-1 font-medium">
+              Referência 2025
             </p>
           </div>
         </div>
         <div className="hidden md:flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
           <TrendingUp className="h-4 w-4 text-primary-foreground/70" />
-          <span className="text-sm font-semibold">Dashboard de Métricas</span>
+          <a
+            target="_blank"
+            href="https://dados.teresopolis.rj.gov.br/dataset/creas-centro-de-referencia-especializado-de-assistencia-social/resource/b75d3473-01d0-4e45-b042-3c5d246bbcd1"
+          >
+            <span className="text-sm font-semibold">Base de Dados</span>
+          </a>
         </div>
       </div>
     </header>
