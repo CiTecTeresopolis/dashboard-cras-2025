@@ -2,6 +2,13 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from "recha
 import { situacoesData } from "@/data/creas-data";
 import ChartSection from "./ChartSection";
 
+const TOOLTIP_STYLE = {
+  borderRadius: "0.75rem",
+  border: "1px solid hsl(220 13% 91% / 0.5)",
+  fontSize: 13,
+  boxShadow: "0 8px 24px -4px rgba(0,0,0,0.1)",
+};
+
 const SituacoesChart = () => {
   return (
     <ChartSection title="Situações de Vulnerabilidade" description="Principais situações registradas">
@@ -12,10 +19,11 @@ const SituacoesChart = () => {
             cx="50%"
             cy="45%"
             outerRadius={100}
-            paddingAngle={2}
+            paddingAngle={3}
             dataKey="value"
             stroke="none"
-            label={({ name, percent }) => `${(percent * 100).toFixed(0)}%`}
+            cornerRadius={4}
+            label={({ percent }) => `${(percent * 100).toFixed(0)}%`}
             labelLine={false}
           >
             {situacoesData.map((entry, index) => (
@@ -23,14 +31,14 @@ const SituacoesChart = () => {
             ))}
           </Pie>
           <Tooltip
-            contentStyle={{ borderRadius: "0.5rem", border: "1px solid hsl(var(--border))", fontSize: 13 }}
+            contentStyle={TOOLTIP_STYLE}
             formatter={(value: number, name: string) => [value.toLocaleString("pt-BR"), name]}
           />
           <Legend
             verticalAlign="bottom"
             iconType="circle"
             iconSize={9}
-            formatter={(value) => <span className="text-xs text-foreground ml-1">{value}</span>}
+            formatter={(value) => <span className="text-xs text-foreground ml-1 font-medium">{value}</span>}
           />
         </PieChart>
       </ResponsiveContainer>

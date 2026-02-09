@@ -2,6 +2,14 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from "recha
 import { sexoData } from "@/data/creas-data";
 import ChartSection from "./ChartSection";
 
+const TOOLTIP_STYLE = {
+  borderRadius: "0.75rem",
+  border: "1px solid hsl(220 13% 91% / 0.5)",
+  fontSize: 13,
+  boxShadow: "0 8px 24px -4px rgba(0,0,0,0.1)",
+  backdropFilter: "blur(8px)",
+};
+
 const SexoChart = () => {
   return (
     <ChartSection title="Distribuição por Sexo" description="Total de atendimentos por gênero">
@@ -11,25 +19,26 @@ const SexoChart = () => {
             data={sexoData}
             cx="50%"
             cy="50%"
-            innerRadius={60}
+            innerRadius={65}
             outerRadius={95}
-            paddingAngle={4}
+            paddingAngle={5}
             dataKey="value"
             stroke="none"
+            cornerRadius={6}
           >
             {sexoData.map((entry, index) => (
               <Cell key={index} fill={entry.fill} />
             ))}
           </Pie>
           <Tooltip
-            contentStyle={{ borderRadius: "0.5rem", border: "1px solid hsl(var(--border))", fontSize: 13 }}
+            contentStyle={TOOLTIP_STYLE}
             formatter={(value: number) => [value.toLocaleString("pt-BR"), ""]}
           />
           <Legend
             verticalAlign="bottom"
             iconType="circle"
             iconSize={10}
-            formatter={(value) => <span className="text-xs text-foreground ml-1">{value}</span>}
+            formatter={(value) => <span className="text-xs text-foreground ml-1 font-medium">{value}</span>}
           />
         </PieChart>
       </ResponsiveContainer>
