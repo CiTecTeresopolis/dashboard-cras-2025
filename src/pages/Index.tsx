@@ -10,6 +10,7 @@ import SituacaoSexoChart from "@/components/dashboard/SituacaoSexoChart";
 import FaixaEtariaSituacaoChart from "@/components/dashboard/FaixaEtariaSituacaoChart";
 import BairrosChart from "@/components/dashboard/BairrosChart";
 import ServicosChart from "@/components/dashboard/ServicosChart";
+import AnaliseModal from "@/components/dashboard/AnaliseModal";
 
 const Index = () => {
   return (
@@ -22,6 +23,8 @@ const Index = () => {
 
       <div className="relative z-10 mx-auto px-4 md:px-6 py-8 md:py-12">
         <DashboardHeader />
+        <AnaliseModal />
+
         {/* KPI Cards */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 mb-10">
           <KPICard
@@ -69,11 +72,14 @@ const Index = () => {
         </div>
         {/* Footer */}
         <footer className="flex justify-center align-center text-center py-8 text-xs text-muted-foreground/60 font-medium">
-          <img style={{ width: 350, height: 150 }} src="cie.png" />
-        </footer>
-        <footer className="flex justify-center align-center text-center text-xs text-muted-foreground/60 font-medium">
-          Prefeitura Municipal de Teresópolis // 2026 // Departamento de
-          Governança e Dados
+          <img
+            style={{ width: 250, height: 100, marginRight: 25 }}
+            src="cie.png"
+          />
+          <p style={{ marginTop: 50 }}>
+            Prefeitura Municipal de Teresópolis // 2026 // Departamento de
+            Governança e Dados
+          </p>
         </footer>
       </div>
     </div>

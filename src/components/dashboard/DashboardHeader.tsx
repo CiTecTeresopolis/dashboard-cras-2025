@@ -41,7 +41,6 @@ const DashboardHeader = () => {
               <span className="text-sm font-semibold">Assistência Social</span>
             </a>
           </div>
-          <AnaliseModal />
         </div>
       </div>
     </header>
