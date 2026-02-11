@@ -6,7 +6,7 @@ export const sexoData = [
 ];
 
 export const faixaEtariaData = [
-  { name: "Adulto (19-59)", value: 433 },
+  { name: "Adulto (30-59)", value: 433 },
   { name: "Adolescente (13-18)", value: 144 },
   { name: "Idoso (60+)", value: 100 },
   { name: "Jovem (19-29)", value: 91 },
