@@ -22,7 +22,7 @@ const SituacoesChart = () => {
       title="Situações de Vulnerabilidade"
       description="Principais situações registradas"
     >
-      <ResponsiveContainer width="100%" height={300}>
+      <ResponsiveContainer width="100%" height={350}>
         <PieChart>
           <Pie
             data={situacoesData}

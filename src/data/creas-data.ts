@@ -59,10 +59,10 @@ export const servicosData = [
 ];
 
 export const CHART_COLORS = [
-  "#386641",
-  "#bc4749",
-  "#6a994e",
   "#a7c957",
-  "#f18701",
+  "#6a994e",
+  "#386641",
   "#f7b801",
+  "#f18701",
+  "#bc4749",
 ];
