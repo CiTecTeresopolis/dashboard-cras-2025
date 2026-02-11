@@ -74,7 +74,7 @@ const Index = () => {
 
         {/* Footer */}
         <footer className="text-center py-8 text-xs text-muted-foreground/60 font-medium">
-          Prefeitura Municipal de Teresópolis // 2026 // Departamento de
+          Prefeitura Municipal de Teresópolis // 2026 // Departamento e
           Governança de Dados
         </footer>
       </div>
