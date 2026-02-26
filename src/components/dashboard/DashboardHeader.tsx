@@ -13,7 +13,10 @@ interface DashboardHeaderProps {
   onUnitChange: (unitId: string) => void;
 }
 
-const DashboardHeader = ({ selectedUnit, onUnitChange }: DashboardHeaderProps) => {
+const DashboardHeader = ({
+  selectedUnit,
+  onUnitChange,
+}: DashboardHeaderProps) => {
   const unit = CRAS_UNITS.find((u) => u.id === selectedUnit);
 
   return (
@@ -37,6 +40,25 @@ const DashboardHeader = ({ selectedUnit, onUnitChange }: DashboardHeaderProps) =
           </div>
         </div>
         <div className="flex flex-col gap-2">
+          {/* <div className="hidden md:flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
+            <TrendingUp className="h-4 w-4 text-primary-foreground/70" />
+            <a
+              target="_blank"
+              href="https://dados.teresopolis.rj.gov.br"
+            >
+              <span className="text-sm font-semibold">Base de Dados</span>
+            </a>
+          </div> */}
+          <div className="hidden md:flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
+            <img src="assistencia.png" className="h-10 w-10" />
+            <a
+              target="_blank"
+              href="https://www.teresopolis.rj.gov.br/estrutura/desenvolvimento-social/"
+            >
+              <span className="text-sm font-semibold">Assistência Social</span>
+            </a>
+          </div>
+
           {/* Unit selector */}
           <Select value={selectedUnit} onValueChange={onUnitChange}>
             <SelectTrigger className="w-[200px] bg-white/10 backdrop-blur-sm border-white/20 text-primary-foreground hover:bg-white/20 transition-colors">
@@ -50,25 +72,6 @@ const DashboardHeader = ({ selectedUnit, onUnitChange }: DashboardHeaderProps) =
               ))}
             </SelectContent>
           </Select>
-
-          <div className="hidden md:flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-            <TrendingUp className="h-4 w-4 text-primary-foreground/70" />
-            <a
-              target="_blank"
-              href="https://dados.teresopolis.rj.gov.br"
-            >
-              <span className="text-sm font-semibold">Base de Dados</span>
-            </a>
-          </div>
-          <div className="hidden md:flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 backdrop-blur-sm border border-white/10">
-            <img src="assistencia.png" className="h-10 w-10" />
-            <a
-              target="_blank"
-              href="https://www.teresopolis.rj.gov.br/estrutura/desenvolvimento-social/"
-            >
-              <span className="text-sm font-semibold">Assistência Social</span>
-            </a>
-          </div>
         </div>
       </div>
     </header>
