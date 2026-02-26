@@ -1,9 +1,9 @@
 import {
-  BarChart,
   Bar,
   XAxis,
   YAxis,
   Tooltip,
+  BarChart,
   ResponsiveContainer,
 } from "recharts";
 import ChartSection from "./ChartSection";
@@ -29,17 +29,17 @@ const BairrosChart = ({ data }: BairrosChartProps) => {
         <BarChart data={data} layout="vertical" margin={{ left: 10 }}>
           <XAxis
             type="number"
-            tick={{ fontSize: 12, fill: "hsl(var(--muted-foreground))" }}
             axisLine={false}
             tickLine={false}
+            tick={{ fontSize: 12, fill: "hsl(var(--muted-foreground))" }}
           />
           <YAxis
+            width={130}
             dataKey="name"
             type="category"
-            width={130}
-            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
             axisLine={false}
             tickLine={false}
+            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
           />
           <Tooltip
             contentStyle={TOOLTIP_STYLE}

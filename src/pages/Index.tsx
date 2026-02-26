@@ -1,17 +1,17 @@
 import { useState } from "react";
-import { Users, MapPin, BookOpen, UserCheck } from "lucide-react";
 import { CRAS_UNITS } from "@/data/cras-data";
 import { useCrasData } from "@/hooks/useCrasData";
-import DashboardHeader from "@/components/dashboard/DashboardHeader";
 import KPICard from "@/components/dashboard/KPICard";
 import SexoChart from "@/components/dashboard/SexoChart";
+import BairrosChart from "@/components/dashboard/BairrosChart";
+import DistritoChart from "@/components/dashboard/DistritoChart";
+import { Users, MapPin, BookOpen, UserCheck } from "lucide-react";
+import ProgramasChart from "@/components/dashboard/ProgramasChart";
+import DashboardHeader from "@/components/dashboard/DashboardHeader";
 import FaixaEtariaChart from "@/components/dashboard/FaixaEtariaChart";
 import EscolaridadeChart from "@/components/dashboard/EscolaridadeChart";
-import BairrosChart from "@/components/dashboard/BairrosChart";
-import ProgramasChart from "@/components/dashboard/ProgramasChart";
 import ProgramaSexoChart from "@/components/dashboard/ProgramaSexoChart";
 import FaixaEtariaProgramaChart from "@/components/dashboard/FaixaEtariaProgramaChart";
-import DistritoChart from "@/components/dashboard/DistritoChart";
 
 const Index = () => {
   const [selectedUnit, setSelectedUnit] = useState(CRAS_UNITS[0].id);
@@ -62,7 +62,7 @@ const Index = () => {
                 description="Territórios de origem"
               />
               <KPICard
-                title="Público Feminino"
+                title=" Público Feminino"
                 value={`${(((data.sexoData.find((s) => s.name === "Feminino")?.value || 0) / data.total) * 100).toFixed(1)}%`}
                 icon={UserCheck}
                 description={`${data.sexoData.find((s) => s.name === "Feminino")?.value || 0} atendimentos`}
@@ -84,7 +84,7 @@ const Index = () => {
 
             {/* Row 3: Details */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-5 mb-5">
-              <BairrosChart data={data.bairrosData} />
+              <BairrosChart data={data.bairrosData.slice(0, 10)} />
               <DistritoChart data={data.distritosData} />
               <ProgramasChart data={data.programasData} />
             </div>

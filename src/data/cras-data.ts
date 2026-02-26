@@ -129,7 +129,7 @@ export function aggregateData(records: CrasRecord[]): AggregatedData {
 
   // Bairros (top 10)
   const bairroMap = countBy(records, (r) => r.bairro);
-  const bairrosData = sortedEntries(bairroMap, 10);
+  const bairrosData = sortedEntries(bairroMap);
 
    // Bairros (top 10)
   const distritoMap = countBy(records, (r) => r.distrito);
