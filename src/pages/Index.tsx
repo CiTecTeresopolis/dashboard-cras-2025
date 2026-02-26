@@ -62,10 +62,16 @@ const Index = () => {
                 description="Territórios de origem"
               />
               <KPICard
-                title=" Público Feminino"
+                title="Público Feminino"
                 value={`${(((data.sexoData.find((s) => s.name === "Feminino")?.value || 0) / data.total) * 100).toFixed(1)}%`}
                 icon={UserCheck}
                 description={`${data.sexoData.find((s) => s.name === "Feminino")?.value || 0} atendimentos`}
+              />
+              <KPICard
+                title="Público Masculino"
+                value={`${(((data.sexoData.find((s) => s.name === "Masculino")?.value || 0) / data.total) * 100).toFixed(1)}%`}
+                icon={UserCheck}
+                description={`${data.sexoData.find((s) => s.name === "Masculino")?.value || 0} atendimentos`}
               />
             </div>
 
