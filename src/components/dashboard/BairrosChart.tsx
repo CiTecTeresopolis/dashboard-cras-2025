@@ -37,7 +37,7 @@ const BairrosChart = ({ data }: BairrosChartProps) => {
             dataKey="name"
             type="category"
             width={130}
-            tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
             axisLine={false}
             tickLine={false}
           />

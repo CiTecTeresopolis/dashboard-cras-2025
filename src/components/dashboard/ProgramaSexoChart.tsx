@@ -30,7 +30,7 @@ const ProgramaSexoChart = ({ data }: ProgramaSexoChartProps) => {
         <BarChart data={data} margin={{ left: 10 }}>
           <XAxis
             dataKey="programa"
-            tick={{ fontSize: 10, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
             interval={0}
             angle={-15}
             textAnchor="end"
@@ -39,7 +39,7 @@ const ProgramaSexoChart = ({ data }: ProgramaSexoChartProps) => {
             tickLine={false}
           />
           <YAxis
-            tick={{ fontSize: 12, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
             axisLine={false}
             tickLine={false}
           />

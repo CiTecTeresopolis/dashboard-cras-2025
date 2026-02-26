@@ -29,7 +29,7 @@ const FaixaEtariaChart = ({ data }: FaixaEtariaChartProps) => {
         <BarChart data={data} layout="vertical" margin={{ left: 10 }}>
           <XAxis
             type="number"
-            tick={{ fontSize: 12, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
             axisLine={false}
             tickLine={false}
           />
@@ -37,7 +37,7 @@ const FaixaEtariaChart = ({ data }: FaixaEtariaChartProps) => {
             dataKey="name"
             type="category"
             width={120}
-            tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
             axisLine={false}
             tickLine={false}
           />

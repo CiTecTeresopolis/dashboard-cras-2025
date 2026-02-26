@@ -31,13 +31,13 @@ const FaixaEtariaProgramaChart = ({ data }: FaixaEtariaProgramaChartProps) => {
         <BarChart data={data} margin={{ left: 10 }}>
           <XAxis
             dataKey="programa"
-            tick={{ fontSize: 10, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
             interval={0}
             axisLine={false}
             tickLine={false}
           />
           <YAxis
-            tick={{ fontSize: 12, fill: "hsl(var(--muted-foreground))" }}
+            tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
             axisLine={false}
             tickLine={false}
           />
@@ -54,11 +54,25 @@ const FaixaEtariaProgramaChart = ({ data }: FaixaEtariaProgramaChartProps) => {
               </span>
             )}
           />
-          <Bar dataKey="Criança (0-12)" fill={CHART_COLORS[1]} radius={[4, 4, 0, 0]} stackId="a" />
-          <Bar dataKey="Adolescente (13-18)" fill={CHART_COLORS[2]} stackId="a" />
+          <Bar
+            dataKey="Criança (0-12)"
+            fill={CHART_COLORS[1]}
+            radius={[4, 4, 0, 0]}
+            stackId="a"
+          />
+          <Bar
+            dataKey="Adolescente (13-18)"
+            fill={CHART_COLORS[2]}
+            stackId="a"
+          />
           <Bar dataKey="Jovem (19-29)" fill={CHART_COLORS[3]} stackId="a" />
           <Bar dataKey="Adulto (30-59)" fill={CHART_COLORS[4]} stackId="a" />
-          <Bar dataKey="Idoso (60+)" fill={CHART_COLORS[5]} radius={[4, 4, 0, 0]} stackId="a" />
+          <Bar
+            dataKey="Idoso (60+)"
+            fill={CHART_COLORS[5]}
+            radius={[4, 4, 0, 0]}
+            stackId="a"
+          />
         </BarChart>
       </ResponsiveContainer>
     </ChartSection>
