@@ -59,7 +59,7 @@ const Index = () => {
                 title="Bairros Atendidos"
                 value={data.bairrosData.length}
                 icon={MapPin}
-                description="Territórios de origem"
+                description="Bairros de origem"
               />
               <KPICard
                 title="Público Feminino"
