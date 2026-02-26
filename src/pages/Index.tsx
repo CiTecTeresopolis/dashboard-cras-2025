@@ -41,7 +41,7 @@ const Index = () => {
         ) : (
           <>
             {/* KPI Cards */}
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 mb-10">
+            <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 md:gap-5 mb-10">
               <KPICard
                 title="Total de Atendimentos"
                 value={data.total}
