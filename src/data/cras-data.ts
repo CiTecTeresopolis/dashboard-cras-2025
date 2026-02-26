@@ -72,6 +72,7 @@ export interface AggregatedData {
   programasData: { name: string; value: number }[];
   programaPorSexo: { programa: string; Masculino: number; Feminino: number }[];
   faixaEtariaPorPrograma: Record<string, unknown>[];
+  distritosData: { name: string; value: number }[]; 
 }
 
 function countBy<T>(arr: T[], keyFn: (item: T) => string): Map<string, number> {
@@ -130,6 +131,11 @@ export function aggregateData(records: CrasRecord[]): AggregatedData {
   const bairroMap = countBy(records, (r) => r.bairro);
   const bairrosData = sortedEntries(bairroMap, 10);
 
+   // Bairros (top 10)
+  const distritoMap = countBy(records, (r) => r.distrito);
+  const distritosData = sortedEntries(distritoMap);
+
+
   // Programas
   const progMap = countBy(records, (r) => r.programa);
   const programasData = sortedEntries(progMap);
@@ -166,6 +172,7 @@ export function aggregateData(records: CrasRecord[]): AggregatedData {
     programasData,
     programaPorSexo,
     faixaEtariaPorPrograma,
+    distritosData,
   };
 }
 

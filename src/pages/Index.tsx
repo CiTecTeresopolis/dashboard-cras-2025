@@ -11,6 +11,7 @@ import BairrosChart from "@/components/dashboard/BairrosChart";
 import ProgramasChart from "@/components/dashboard/ProgramasChart";
 import ProgramaSexoChart from "@/components/dashboard/ProgramaSexoChart";
 import FaixaEtariaProgramaChart from "@/components/dashboard/FaixaEtariaProgramaChart";
+import DistritoChart from "@/components/dashboard/DistritoChart";
 
 const Index = () => {
   const [selectedUnit, setSelectedUnit] = useState(CRAS_UNITS[0].id);
@@ -82,8 +83,9 @@ const Index = () => {
             </div>
 
             {/* Row 3: Details */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 mb-5">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-5 mb-5">
               <BairrosChart data={data.bairrosData} />
+              <DistritoChart data={data.distritosData} />
               <ProgramasChart data={data.programasData} />
             </div>
           </>

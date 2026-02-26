@@ -10,8 +10,8 @@ const ProgramasChart = ({ data }: ProgramasChartProps) => {
 
   return (
     <ChartSection
-      title="Perfis Vinculados"
-      description="Volume por tipo de programa"
+      title="PERFIL QUANTITATIVO"
+      description="Volume por tipo de atendimento"
     >
       <div className="space-y-4">
         {data.map((programa, index) => {
