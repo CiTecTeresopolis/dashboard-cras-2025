@@ -12,6 +12,7 @@ export interface CrasRecord {
   idade: number;
   escolaridade: string;
   bairro: string;
+  distrito: string;
   referencia: string;
   localAtendimento: string;
   programa: string;
@@ -47,15 +48,16 @@ export function parseCsv(text: string): CrasRecord[] {
     const idadeStr = cols[1]?.trim();
     const escolaridade = cols[2]?.trim();
     const bairro = cols[3]?.trim();
-    const referencia = cols[4]?.trim();
-    const localAtendimento = cols[5]?.trim();
-    const programa = cols[6]?.trim();
+    const distrito = cols[4]?.trim();
+    const referencia = cols[5]?.trim();
+    const localAtendimento = cols[6]?.trim();
+    const programa = cols[7]?.trim();
 
     if (!sexo || !idadeStr) continue;
     const idade = parseInt(idadeStr, 10);
     if (isNaN(idade)) continue;
 
-    records.push({ sexo, idade, escolaridade, bairro, referencia, localAtendimento, programa });
+    records.push({ sexo, idade, escolaridade, bairro, distrito, referencia, localAtendimento, programa });
   }
 
   return records;
@@ -64,8 +66,8 @@ export function parseCsv(text: string): CrasRecord[] {
 export interface AggregatedData {
   total: number;
   sexoData: { name: string; value: number; fill: string }[];
-  faixaEtariaData: { name: string; value: number }[];
-  escolaridadeData: { name: string; value: number }[];
+  faixaEtariaData: { name: string; Masculino: number; Feminino: number }[];
+  escolaridadeData: { name: string; Masculino: number; Feminino: number }[];
   bairrosData: { name: string; value: number }[];
   programasData: { name: string; value: number }[];
   programaPorSexo: { programa: string; Masculino: number; Feminino: number }[];
@@ -98,15 +100,31 @@ export function aggregateData(records: CrasRecord[]): AggregatedData {
     { name: "Feminino", value: sexoMap.get("Feminino") || 0, fill: "#bc4749" },
   ];
 
-  // Faixa Etária
+  // Faixa Etária (contagem por sexo)
   const faixaOrder = ["Criança (0-12)", "Adolescente (13-18)", "Jovem (19-29)", "Adulto (30-59)", "Idoso (60+)"];
-  const faixaMap = countBy(records, (r) => getFaixaEtaria(r.idade));
-  const faixaEtariaData = faixaOrder.map((name) => ({ name, value: faixaMap.get(name) || 0 }))
-    .sort((a, b) => b.value - a.value);
+  const faixaEtariaData = faixaOrder.map((name) => {
+    const filtered = records.filter((r) => getFaixaEtaria(r.idade) === name);
+    return {
+      name,
+      Masculino: filtered.filter((r) => r.sexo === "Masculino").length,
+      Feminino: filtered.filter((r) => r.sexo === "Feminino").length,
+    };
+  });
 
-  // Escolaridade
-  const escMap = countBy(records, (r) => r.escolaridade);
-  const escolaridadeData = sortedEntries(escMap);
+  // Escolaridade (contagem por sexo)
+  const escMap = new Map<string, { Masculino: number; Feminino: number }>();
+  for (const r of records) {
+    const name = r.escolaridade || "";
+    if (!escMap.has(name)) {
+      escMap.set(name, { Masculino: 0, Feminino: 0 });
+    }
+    const obj = escMap.get(name)!;
+    if (r.sexo === "Masculino") obj.Masculino += 1;
+    else if (r.sexo === "Feminino") obj.Feminino += 1;
+  }
+  const escolaridadeData = Array.from(escMap.entries())
+    .map(([name, counts]) => ({ name, ...counts }))
+    .sort((a, b) => b.Masculino + b.Feminino - (a.Masculino + a.Feminino));
 
   // Bairros (top 10)
   const bairroMap = countBy(records, (r) => r.bairro);

@@ -17,7 +17,7 @@ const TOOLTIP_STYLE = {
 };
 
 interface EscolaridadeChartProps {
-  data: { name: string; value: number }[];
+  data: { name: string; Masculino: number; Feminino: number }[];
 }
 
 const EscolaridadeChart = ({ data }: EscolaridadeChartProps) => {
@@ -51,10 +51,16 @@ const EscolaridadeChart = ({ data }: EscolaridadeChartProps) => {
             cursor={{ fill: "hsl(var(--muted) / 0.4)" }}
           />
           <Bar
-            dataKey="value"
+            dataKey="Masculino"
             radius={[0, 8, 8, 0]}
-            fill={CHART_COLORS[1]}
-            barSize={18}
+            fill={"#6a994e"}
+            barSize={10}
+          />
+          <Bar
+            dataKey="Feminino"
+            radius={[0, 8, 8, 0]}
+            fill={"#bc4749"}
+            barSize={10}
           />
         </BarChart>
       </ResponsiveContainer>

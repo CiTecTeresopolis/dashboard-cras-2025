@@ -16,7 +16,7 @@ const TOOLTIP_STYLE = {
 };
 
 interface FaixaEtariaChartProps {
-  data: { name: string; value: number }[];
+  data: { name: string; Masculino: number; Feminino: number }[];
 }
 
 const FaixaEtariaChart = ({ data }: FaixaEtariaChartProps) => {
@@ -26,7 +26,13 @@ const FaixaEtariaChart = ({ data }: FaixaEtariaChartProps) => {
       description="Distribuição dos atendidos por idade"
     >
       <ResponsiveContainer width="100%" height={260}>
-        <BarChart data={data} layout="vertical" margin={{ left: 10 }}>
+        <BarChart
+          data={data}
+          layout="vertical"
+          margin={{ left: 10 }}
+          barGap={6}
+          barCategoryGap="20%"
+        >
           <XAxis
             type="number"
             tick={{ fontSize: 14, fill: "hsl(var(--muted-foreground))" }}
@@ -50,10 +56,16 @@ const FaixaEtariaChart = ({ data }: FaixaEtariaChartProps) => {
             cursor={{ fill: "hsl(var(--muted) / 0.4)" }}
           />
           <Bar
-            dataKey="value"
+            dataKey="Masculino"
             radius={[0, 8, 8, 0]}
             fill="#6a994e"
-            barSize={22}
+            barSize={12}
+          />
+          <Bar
+            dataKey="Feminino"
+            radius={[0, 8, 8, 0]}
+            fill="#bc4749"
+            barSize={12}
           />
         </BarChart>
       </ResponsiveContainer>

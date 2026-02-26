@@ -10,7 +10,7 @@ const ProgramasChart = ({ data }: ProgramasChartProps) => {
 
   return (
     <ChartSection
-      title="Programas Vinculados"
+      title="Perfis Vinculados"
       description="Volume por tipo de programa"
     >
       <div className="space-y-4">

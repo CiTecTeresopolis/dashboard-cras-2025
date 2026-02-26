@@ -49,7 +49,7 @@ const Index = () => {
                 description={unit?.label || ""}
               />
               <KPICard
-                title="Programas Ativos"
+                title="Vínculos Ativos"
                 value={data.programasData.length}
                 icon={BookOpen}
                 description="Modalidades vinculadas"
@@ -62,7 +62,7 @@ const Index = () => {
               />
               <KPICard
                 title="Público Feminino"
-                value={`${((data.sexoData.find((s) => s.name === "Feminino")?.value || 0) / data.total * 100).toFixed(1)}%`}
+                value={`${(((data.sexoData.find((s) => s.name === "Feminino")?.value || 0) / data.total) * 100).toFixed(1)}%`}
                 icon={UserCheck}
                 description={`${data.sexoData.find((s) => s.name === "Feminino")?.value || 0} atendimentos`}
               />
