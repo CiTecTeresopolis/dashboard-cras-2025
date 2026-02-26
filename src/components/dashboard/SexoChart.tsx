@@ -6,7 +6,6 @@ import {
   Legend,
   Tooltip,
 } from "recharts";
-import { sexoData } from "@/data/creas-data";
 import ChartSection from "./ChartSection";
 
 const TOOLTIP_STYLE = {
@@ -17,7 +16,11 @@ const TOOLTIP_STYLE = {
   backdropFilter: "blur(8px)",
 };
 
-const SexoChart = () => {
+interface SexoChartProps {
+  data: { name: string; value: number; fill: string }[];
+}
+
+const SexoChart = ({ data }: SexoChartProps) => {
   return (
     <ChartSection
       title="Distribuição por Sexo"
@@ -26,7 +29,7 @@ const SexoChart = () => {
       <ResponsiveContainer width="100%" height={260}>
         <PieChart>
           <Pie
-            data={sexoData}
+            data={data}
             cx="50%"
             cy="50%"
             innerRadius={65}
@@ -36,13 +39,13 @@ const SexoChart = () => {
             stroke="none"
             cornerRadius={6}
           >
-            {sexoData.map((entry, index) => (
+            {data.map((entry, index) => (
               <Cell key={index} fill={entry.fill} />
             ))}
           </Pie>
           <Tooltip
             contentStyle={TOOLTIP_STYLE}
-            formatter={(value: number) => `${[value]}`}
+            formatter={(value: number) => `${value}`}
           />
           <Legend
             verticalAlign="bottom"

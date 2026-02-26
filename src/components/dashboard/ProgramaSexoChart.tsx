@@ -7,7 +7,6 @@ import {
   ResponsiveContainer,
   Legend,
 } from "recharts";
-import { faixaEtariaPorSituacao, CHART_COLORS } from "@/data/creas-data";
 import ChartSection from "./ChartSection";
 
 const TOOLTIP_STYLE = {
@@ -17,18 +16,25 @@ const TOOLTIP_STYLE = {
   boxShadow: "0 8px 24px -4px rgba(0,0,0,0.1)",
 };
 
-const FaixaEtariaSituacaoChart = () => {
+interface ProgramaSexoChartProps {
+  data: { programa: string; Masculino: number; Feminino: number }[];
+}
+
+const ProgramaSexoChart = ({ data }: ProgramaSexoChartProps) => {
   return (
     <ChartSection
-      title="Faixa Etária por Situação"
-      description="Distribuição etária para cada tipo de vulnerabilidade"
+      title="Programa por Sexo"
+      description="Análise cruzada: programa × gênero"
     >
-      <ResponsiveContainer width="100%" height={300}>
-        <BarChart data={faixaEtariaPorSituacao} margin={{ left: 10 }}>
+      <ResponsiveContainer width="100%" height={280}>
+        <BarChart data={data} margin={{ left: 10 }}>
           <XAxis
-            dataKey="situacao"
-            tick={{ fontSize: 12, fill: "hsl(var(--muted-foreground))" }}
+            dataKey="programa"
+            tick={{ fontSize: 10, fill: "hsl(var(--muted-foreground))" }}
             interval={0}
+            angle={-15}
+            textAnchor="end"
+            height={60}
             axisLine={false}
             tickLine={false}
           />
@@ -51,23 +57,16 @@ const FaixaEtariaSituacaoChart = () => {
             )}
           />
           <Bar
-            dataKey="Criança (0-12)"
-            fill={CHART_COLORS[1]}
-            radius={[4, 4, 0, 0]}
-            stackId="a"
+            dataKey="Masculino"
+            fill="#6a994e"
+            radius={[6, 6, 0, 0]}
+            barSize={26}
           />
           <Bar
-            dataKey="Adolescente (13-18)"
-            fill={CHART_COLORS[2]}
-            stackId="a"
-          />
-          <Bar dataKey="Jovem (19-29)" fill={CHART_COLORS[3]} stackId="a" />
-          <Bar dataKey="Adulto (30-59)" fill={CHART_COLORS[4]} stackId="a" />
-          <Bar
-            dataKey="Idoso (60+)"
-            fill={CHART_COLORS[5]}
-            radius={[4, 4, 0, 0]}
-            stackId="a"
+            dataKey="Feminino"
+            fill="#bc4749"
+            radius={[6, 6, 0, 0]}
+            barSize={26}
           />
         </BarChart>
       </ResponsiveContainer>
@@ -75,4 +74,4 @@ const FaixaEtariaSituacaoChart = () => {
   );
 };
 
-export default FaixaEtariaSituacaoChart;
+export default ProgramaSexoChart;
