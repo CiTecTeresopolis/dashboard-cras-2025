@@ -1,25 +1,29 @@
-import { servicosData, CHART_COLORS } from "@/data/creas-data";
+import { CHART_COLORS } from "@/data/cras-data";
 import ChartSection from "./ChartSection";
 
-const ServicosChart = () => {
-  const total = servicosData.reduce((acc, s) => acc + s.value, 0);
+interface ProgramasChartProps {
+  data: { name: string; value: number }[];
+}
+
+const ProgramasChart = ({ data }: ProgramasChartProps) => {
+  const total = data.reduce((acc, s) => acc + s.value, 0);
 
   return (
     <ChartSection
-      title="Serviços Ofertados"
-      description="Volume por tipo de serviço"
+      title="Programas Vinculados"
+      description="Volume por tipo de programa"
     >
       <div className="space-y-4">
-        {servicosData.map((servico, index) => {
-          const pct = ((servico.value / total) * 100).toFixed(1);
+        {data.map((programa, index) => {
+          const pct = ((programa.value / total) * 100).toFixed(1);
           return (
-            <div key={servico.name} className="group">
+            <div key={programa.name} className="group">
               <div className="flex justify-between items-baseline mb-1.5">
                 <span className="text-xs text-foreground font-semibold leading-tight max-w-[70%]">
-                  {servico.name}
+                  {programa.name}
                 </span>
                 <span className="text-xs font-mono font-bold text-foreground">
-                  {servico.value}
+                  {programa.value}
                 </span>
               </div>
               <div className="w-full h-2.5 rounded-full bg-muted/60 overflow-hidden">
@@ -27,7 +31,7 @@ const ServicosChart = () => {
                   className="h-full rounded-full transition-all duration-700 group-hover:brightness-110"
                   style={{
                     width: `${pct}%`,
-                    backgroundColor: CHART_COLORS[index],
+                    backgroundColor: CHART_COLORS[index % CHART_COLORS.length],
                   }}
                 />
               </div>
@@ -39,4 +43,4 @@ const ServicosChart = () => {
   );
 };
 
-export default ServicosChart;
+export default ProgramasChart;

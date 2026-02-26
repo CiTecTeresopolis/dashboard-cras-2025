@@ -1,5 +1,5 @@
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
-import { escolaridadeData, CHART_COLORS } from "@/data/creas-data";
+import { CHART_COLORS } from "@/data/cras-data";
 import ChartSection from "./ChartSection";
 
 const TOOLTIP_STYLE = {
@@ -9,11 +9,15 @@ const TOOLTIP_STYLE = {
   boxShadow: "0 8px 24px -4px rgba(0,0,0,0.1)",
 };
 
-const EscolaridadeChart = () => {
+interface EscolaridadeChartProps {
+  data: { name: string; value: number }[];
+}
+
+const EscolaridadeChart = ({ data }: EscolaridadeChartProps) => {
   return (
     <ChartSection title="Escolaridade" description="Nível de escolaridade dos atendidos">
       <ResponsiveContainer width="100%" height={300}>
-        <BarChart data={escolaridadeData} layout="vertical" margin={{ left: 10 }}>
+        <BarChart data={data} layout="vertical" margin={{ left: 10 }}>
           <XAxis type="number" tick={{ fontSize: 12, fill: "hsl(var(--muted-foreground))" }} axisLine={false} tickLine={false} />
           <YAxis dataKey="name" type="category" width={130} tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }} axisLine={false} tickLine={false} />
           <Tooltip

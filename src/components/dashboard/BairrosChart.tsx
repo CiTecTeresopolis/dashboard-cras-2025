@@ -6,7 +6,6 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { bairrosViolencia } from "@/data/creas-data";
 import ChartSection from "./ChartSection";
 
 const TOOLTIP_STYLE = {
@@ -16,18 +15,18 @@ const TOOLTIP_STYLE = {
   boxShadow: "0 8px 24px -4px rgba(0,0,0,0.1)",
 };
 
-const BairrosChart = () => {
+interface BairrosChartProps {
+  data: { name: string; value: number }[];
+}
+
+const BairrosChart = ({ data }: BairrosChartProps) => {
   return (
     <ChartSection
-      title="Bairros — Violência Intrafamiliar"
-      description="Top 5 bairros com maior incidência"
+      title="Bairros de Origem"
+      description="Top 10 bairros com mais atendimentos"
     >
-      <ResponsiveContainer width="100%" height={260}>
-        <BarChart
-          data={bairrosViolencia}
-          layout="vertical"
-          margin={{ left: 10 }}
-        >
+      <ResponsiveContainer width="100%" height={300}>
+        <BarChart data={data} layout="vertical" margin={{ left: 10 }}>
           <XAxis
             type="number"
             tick={{ fontSize: 12, fill: "hsl(var(--muted-foreground))" }}
@@ -37,7 +36,7 @@ const BairrosChart = () => {
           <YAxis
             dataKey="name"
             type="category"
-            width={110}
+            width={130}
             tick={{ fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
             axisLine={false}
             tickLine={false}
@@ -46,7 +45,7 @@ const BairrosChart = () => {
             contentStyle={TOOLTIP_STYLE}
             formatter={(value: number) => [
               value.toLocaleString("pt-BR"),
-              "Casos",
+              "Atendimentos",
             ]}
             cursor={{ fill: "hsl(var(--muted) / 0.4)" }}
           />

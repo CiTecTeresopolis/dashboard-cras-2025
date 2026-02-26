@@ -1,18 +1,22 @@
-import { Users, Home, AlertTriangle, UserCheck } from "lucide-react";
-import { TOTAL_ATENDIMENTOS } from "@/data/creas-data";
+import { useState } from "react";
+import { Users, MapPin, BookOpen, UserCheck } from "lucide-react";
+import { CRAS_UNITS } from "@/data/cras-data";
+import { useCrasData } from "@/hooks/useCrasData";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
 import KPICard from "@/components/dashboard/KPICard";
 import SexoChart from "@/components/dashboard/SexoChart";
 import FaixaEtariaChart from "@/components/dashboard/FaixaEtariaChart";
 import EscolaridadeChart from "@/components/dashboard/EscolaridadeChart";
-import SituacoesChart from "@/components/dashboard/SituacoesChart";
-import SituacaoSexoChart from "@/components/dashboard/SituacaoSexoChart";
-import FaixaEtariaSituacaoChart from "@/components/dashboard/FaixaEtariaSituacaoChart";
 import BairrosChart from "@/components/dashboard/BairrosChart";
-import ServicosChart from "@/components/dashboard/ServicosChart";
-import AnaliseModal from "@/components/dashboard/AnaliseModal";
+import ProgramasChart from "@/components/dashboard/ProgramasChart";
+import ProgramaSexoChart from "@/components/dashboard/ProgramaSexoChart";
+import FaixaEtariaProgramaChart from "@/components/dashboard/FaixaEtariaProgramaChart";
 
 const Index = () => {
+  const [selectedUnit, setSelectedUnit] = useState(CRAS_UNITS[0].id);
+  const { data, loading } = useCrasData(selectedUnit);
+  const unit = CRAS_UNITS.find((u) => u.id === selectedUnit);
+
   return (
     <div className="min-h-screen bg-background">
       {/* Ambient background blobs */}
@@ -22,54 +26,69 @@ const Index = () => {
       </div>
 
       <div className="relative z-10 mx-auto px-4 md:px-6 py-8 md:py-12">
-        <DashboardHeader />
-        <AnaliseModal />
+        <DashboardHeader
+          selectedUnit={selectedUnit}
+          onUnitChange={setSelectedUnit}
+        />
 
-        {/* KPI Cards */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 mb-10">
-          <KPICard
-            title="Total de Atendimentos"
-            value={TOTAL_ATENDIMENTOS}
-            icon={Users}
-            accent
-            description="Em 2025"
-          />
-          <KPICard
-            title="Violência Intrafamiliar"
-            value={417}
-            icon={AlertTriangle}
-            description="48,8% do total"
-          />
-          <KPICard
-            title="Situação de Rua"
-            value={335}
-            icon={Home}
-            description="39,2% do total"
-          />
-          <KPICard
-            title="Serviços Ofertados"
-            value={4}
-            icon={UserCheck}
-            description="Modalidades ativas"
-          />
-        </div>
-        {/* Row 1: Demographics */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 mb-5">
-          <SexoChart />
-          <FaixaEtariaChart />
-          <SituacoesChart />
-        </div>
-        {/* Row 2: Cross analysis */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-5 mb-5">
-          <SituacaoSexoChart />
-          <FaixaEtariaSituacaoChart />
-        </div>
-        {/* Row 3: Details */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 mb-5">
-          <EscolaridadeChart />
-          <BairrosChart />
-          <ServicosChart />
-        </div>
+        {loading || !data ? (
+          <div className="flex items-center justify-center py-32">
+            <div className="text-muted-foreground text-lg animate-pulse">
+              Carregando dados...
+            </div>
+          </div>
+        ) : (
+          <>
+            {/* KPI Cards */}
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 mb-10">
+              <KPICard
+                title="Total de Atendimentos"
+                value={data.total}
+                icon={Users}
+                accent
+                description={unit?.label || ""}
+              />
+              <KPICard
+                title="Programas Ativos"
+                value={data.programasData.length}
+                icon={BookOpen}
+                description="Modalidades vinculadas"
+              />
+              <KPICard
+                title="Bairros Atendidos"
+                value={data.bairrosData.length}
+                icon={MapPin}
+                description="Territórios de origem"
+              />
+              <KPICard
+                title="Público Feminino"
+                value={`${((data.sexoData.find((s) => s.name === "Feminino")?.value || 0) / data.total * 100).toFixed(1)}%`}
+                icon={UserCheck}
+                description={`${data.sexoData.find((s) => s.name === "Feminino")?.value || 0} atendimentos`}
+              />
+            </div>
+
+            {/* Row 1: Demographics */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 mb-5">
+              <SexoChart data={data.sexoData} />
+              <FaixaEtariaChart data={data.faixaEtariaData} />
+              <EscolaridadeChart data={data.escolaridadeData} />
+            </div>
+
+            {/* Row 2: Cross analysis */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-5 mb-5">
+              <ProgramaSexoChart data={data.programaPorSexo} />
+              <FaixaEtariaProgramaChart data={data.faixaEtariaPorPrograma} />
+            </div>
+
+            {/* Row 3: Details */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 mb-5">
+              <BairrosChart data={data.bairrosData} />
+              <ProgramasChart data={data.programasData} />
+            </div>
+          </>
+        )}
+
         {/* Footer */}
         <footer className="flex justify-center align-center text-center py-8 text-xs text-muted-foreground/60 font-medium">
           <img
