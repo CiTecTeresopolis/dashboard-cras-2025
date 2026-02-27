@@ -67,7 +67,7 @@ const Index = () => {
                 title="Média de Idade"
                 value={data.mediaIdade}
                 icon={UserCheck}
-                description="Média de idade geral de idade"
+                description="Média geral"
               />
 
               <KPICard
