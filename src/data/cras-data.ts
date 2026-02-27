@@ -95,7 +95,7 @@ function sortedEntries(map: Map<string, number>, limit?: number): { name: string
 function calculateAverageAge(records: CrasRecord[]): string {
   if (records.length === 0) return "0.00";
   const sum = records.reduce((acc, curr) => acc + curr.idade, 0);
-  return (sum / records.length).toFixed(2); // Retorna com 2 casas decimais
+  return (sum / records.length).toFixed(0); // Retorna com 2 casas decimais
 }
 
 export function aggregateData(records: CrasRecord[]): AggregatedData {
