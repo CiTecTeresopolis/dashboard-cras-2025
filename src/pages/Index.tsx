@@ -41,7 +41,7 @@ const Index = () => {
         ) : (
           <>
             {/* KPI Cards */}
-            <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 md:gap-5 mb-10">
+            <div className="grid grid-cols-2 lg:grid-cols-6 gap-4 md:gap-5 mb-10">
               <KPICard
                 title="Total de Atendimentos"
                 value={data.total}
@@ -55,12 +55,21 @@ const Index = () => {
                 icon={BookOpen}
                 description="Modalidades vinculadas"
               />
+
               <KPICard
                 title="Bairros Atendidos"
                 value={data.bairrosData.length}
                 icon={MapPin}
                 description="Bairros de origem"
               />
+
+              <KPICard
+                title="Média de Idade"
+                value={data.mediaIdade}
+                icon={UserCheck}
+                description="Média de idade geral de idade"
+              />
+
               <KPICard
                 title="Público Feminino"
                 value={`${(((data.sexoData.find((s) => s.name === "Feminino")?.value || 0) / data.total) * 100).toFixed(1)}%`}

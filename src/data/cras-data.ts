@@ -65,6 +65,7 @@ export function parseCsv(text: string): CrasRecord[] {
 
 export interface AggregatedData {
   total: number;
+  mediaIdade: string;
   sexoData: { name: string; value: number; fill: string }[];
   faixaEtariaData: { name: string; Masculino: number; Feminino: number }[];
   escolaridadeData: { name: string; Masculino: number; Feminino: number }[];
@@ -91,8 +92,16 @@ function sortedEntries(map: Map<string, number>, limit?: number): { name: string
   return limit ? entries.slice(0, limit) : entries;
 }
 
+function calculateAverageAge(records: CrasRecord[]): string {
+  if (records.length === 0) return "0.00";
+  const sum = records.reduce((acc, curr) => acc + curr.idade, 0);
+  return (sum / records.length).toFixed(2); // Retorna com 2 casas decimais
+}
+
 export function aggregateData(records: CrasRecord[]): AggregatedData {
   const total = records.length;
+
+  const mediaIdade = calculateAverageAge(records);
 
   // Sexo
   const sexoMap = countBy(records, (r) => r.sexo);
@@ -129,7 +138,7 @@ export function aggregateData(records: CrasRecord[]): AggregatedData {
 
   // Bairros (top 10)
   const bairroMap = countBy(records, (r) => r.bairro);
-  const bairrosData = sortedEntries(bairroMap);
+  const bairrosData = sortedEntries(bairroMap, 10);
 
    // Bairros (top 10)
   const distritoMap = countBy(records, (r) => r.distrito);
@@ -166,6 +175,7 @@ export function aggregateData(records: CrasRecord[]): AggregatedData {
   return {
     total,
     sexoData,
+    mediaIdade,
     faixaEtariaData,
     escolaridadeData,
     bairrosData,
