@@ -33,7 +33,7 @@ const DistritoChart = ({ data }: DistritoChartProps) => {
             cx="50%"
             cy="45%"
             outerRadius={100}
-            paddingAngle={3}
+            // paddingAngle={3}
             dataKey="value"
             stroke="none"
             cornerRadius={4}
@@ -57,7 +57,7 @@ const DistritoChart = ({ data }: DistritoChartProps) => {
             contentStyle={TOOLTIP_STYLE}
             formatter={(value: number, name: string) => [
               value.toLocaleString("pt-BR"),
-              name + "Distrito",
+              name + " Distrito",
             ]}
           />
           <Legend
