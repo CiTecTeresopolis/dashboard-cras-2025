@@ -12,10 +12,20 @@ import FaixaEtariaChart from "@/components/dashboard/FaixaEtariaChart";
 import EscolaridadeChart from "@/components/dashboard/EscolaridadeChart";
 import ProgramaSexoChart from "@/components/dashboard/ProgramaSexoChart";
 import FaixaEtariaProgramaChart from "@/components/dashboard/FaixaEtariaProgramaChart";
+import FiltroModal from "@/components/FiltroModal";
+import AtendimentosChart from "@/components/dashboard/AtendimentosChart";
 
 const Index = () => {
   const [selectedUnit, setSelectedUnit] = useState(CRAS_UNITS[0].id);
-  const { data, loading } = useCrasData(selectedUnit);
+  const [selectedUnitLabel, setSelectedUnitLabel] = useState(
+    CRAS_UNITS[0].label,
+  );
+  const [selectedPeriodLabel, setSelectedPeriodLabel] = useState("Ano Todo");
+  const [customCsvPath, setCustomCsvPath] = useState<string | undefined>(
+    undefined,
+  );
+  const [filterOpen, setFilterOpen] = useState(true);
+  const { data, loading } = useCrasData(selectedUnit, customCsvPath);
   const unit = CRAS_UNITS.find((u) => u.id === selectedUnit);
 
   return (
@@ -28,8 +38,9 @@ const Index = () => {
 
       <div className="relative z-10 mx-auto px-4 md:px-6 py-8 md:py-12">
         <DashboardHeader
-          selectedUnit={selectedUnit}
-          onUnitChange={setSelectedUnit}
+          selectedUnitLabel={selectedUnitLabel}
+          selectedPeriodLabel={selectedPeriodLabel}
+          onOpenFilter={() => setFilterOpen(true)}
         />
 
         {loading || !data ? (
@@ -47,7 +58,7 @@ const Index = () => {
                 value={data.total}
                 icon={Users}
                 accent
-                description={unit?.label || ""}
+                description={selectedUnitLabel}
               />
               <KPICard
                 title="Vínculos Ativos"
@@ -98,13 +109,29 @@ const Index = () => {
             </div>
 
             {/* Row 3: Details */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-5 mb-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 mb-5">
               <BairrosChart data={data.bairrosData.slice(0, 10)} />
               <DistritoChart data={data.distritosData} />
+            </div>
+
+            {/* Row 4: Additional details (if needed) */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 mb-5">
               <ProgramasChart data={data.programasData} />
+              <AtendimentosChart data={data.tipoAtendimentoData} />
             </div>
           </>
         )}
+
+        <FiltroModal
+          open={filterOpen}
+          onOpenChange={setFilterOpen}
+          onConfirm={({ csvPath, unitLabel, periodLabel, unitId }) => {
+            setCustomCsvPath(csvPath);
+            setSelectedUnit(unitId);
+            setSelectedUnitLabel(unitLabel);
+            setSelectedPeriodLabel(periodLabel);
+          }}
+        />
 
         {/* Footer */}
         <footer className="flex justify-center align-center text-center py-8 text-xs text-muted-foreground/60 font-medium">

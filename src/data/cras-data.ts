@@ -16,6 +16,7 @@ export interface CrasRecord {
   referencia: string;
   localAtendimento: string;
   programa: string;
+  tipoAtendimento: string;
 }
 
 export interface CrasUnit {
@@ -39,11 +40,17 @@ function getFaixaEtaria(idade: number): string {
 }
 
 export function parseCsv(text: string): CrasRecord[] {
-  const lines = text.split("\n").slice(1); // skip header
+  const lines = text.split("\n");
+  if (lines.length === 0) return [];
+
+  const header = lines[0];
+  const separator = header.includes(";") ? ";" : ",";
+  const dataLines = lines.slice(1); // skip header
   const records: CrasRecord[] = [];
 
-  for (const line of lines) {
-    const cols = line.split(",");
+  for (const line of dataLines) {
+    if (!line.trim()) continue;
+    const cols = line.split(separator);
     const sexo = cols[0]?.trim();
     const idadeStr = cols[1]?.trim();
     const escolaridade = cols[2]?.trim();
@@ -52,12 +59,13 @@ export function parseCsv(text: string): CrasRecord[] {
     const referencia = cols[5]?.trim();
     const localAtendimento = cols[6]?.trim();
     const programa = cols[7]?.trim();
+    const tipoAtendimento = cols[8]?.trim();
 
     if (!sexo || !idadeStr) continue;
     const idade = parseInt(idadeStr, 10);
     if (isNaN(idade)) continue;
 
-    records.push({ sexo, idade, escolaridade, bairro, distrito, referencia, localAtendimento, programa });
+    records.push({ sexo, idade, escolaridade, bairro, distrito, referencia, localAtendimento, programa, tipoAtendimento });
   }
 
   return records;
@@ -71,6 +79,7 @@ export interface AggregatedData {
   escolaridadeData: { name: string; Masculino: number; Feminino: number }[];
   bairrosData: { name: string; value: number }[];
   programasData: { name: string; value: number }[];
+  tipoAtendimentoData: { name: string; value: number }[];
   programaPorSexo: { programa: string; Masculino: number; Feminino: number }[];
   faixaEtariaPorPrograma: Record<string, unknown>[];
   distritosData: { name: string; value: number }[]; 
@@ -149,6 +158,10 @@ export function aggregateData(records: CrasRecord[]): AggregatedData {
   const progMap = countBy(records, (r) => r.programa);
   const programasData = sortedEntries(progMap);
 
+  // Tipo de Atendimento
+  const tipoAtendimentoMap = countBy(records, (r) => r.tipoAtendimento);
+  const tipoAtendimentoData = sortedEntries(tipoAtendimentoMap);
+
   // Programa por Sexo
   const programas = programasData.map((p) => p.name);
   const programaPorSexo = programas.map((programa) => {
@@ -180,6 +193,7 @@ export function aggregateData(records: CrasRecord[]): AggregatedData {
     escolaridadeData,
     bairrosData,
     programasData,
+    tipoAtendimentoData,
     programaPorSexo,
     faixaEtariaPorPrograma,
     distritosData,
@@ -187,8 +201,16 @@ export function aggregateData(records: CrasRecord[]): AggregatedData {
 }
 
 export async function loadCrasData(csvPath: string): Promise<AggregatedData> {
-  const response = await fetch(csvPath);
-  const text = await response.text();
-  const records = parseCsv(text);
-  return aggregateData(records);
+  try {
+    const response = await fetch(csvPath);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch ${csvPath}: ${response.status}`);
+    }
+    const text = await response.text();
+    const records = parseCsv(text);
+    return aggregateData(records);
+  } catch (error) {
+    console.error('Error loading CRAS data:', error);
+    throw error;
+  }
 }

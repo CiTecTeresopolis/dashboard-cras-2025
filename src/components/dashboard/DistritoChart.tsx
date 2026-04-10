@@ -43,11 +43,12 @@ const DistritoChart = ({ data }: DistritoChartProps) => {
             {data.map((entry, index) => (
               <Cell
                 key={index}
-                // Se index for 0, usa a primeira cor. Se não, usa a última do array.
                 fill={
                   index === 0
                     ? CHART_COLORS[1]
-                    : CHART_COLORS[CHART_COLORS.length - 1]
+                    : index === 1
+                      ? CHART_COLORS[3]
+                      : CHART_COLORS[CHART_COLORS.length - 1]
                 }
               />
             ))}

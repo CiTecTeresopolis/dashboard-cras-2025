@@ -1,0 +1,616 @@
+﻿Sexo;Idade;Escolaridade;Bairro de Origem;Distrito;Referência;Local de Atendimento;Programa Vinculado;Tipo de Atendimento
+Feminino;56;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Assistente Social
+Feminino;23;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;19;Médio Completo;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;32;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;38;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente Social
+Feminino;20;Médio Completo;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;51;Fundamental Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;51;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;65;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente Social
+Masculino;51;Médio Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;26;Superior Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;35;Médio Completo;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;34;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Assistente Social
+Feminino;36;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;46;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;36;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;71;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Assistente Social
+Masculino;45;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;18;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;62;Superior Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;35;Superior Completo;Jardim Serrano;1;CRAS Alto;CRAS Alto;PAIF;Assistente Social
+Feminino;65;Médio Completo;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;25;Fundamental Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;24;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;35;Médio Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Assistente Social
+Masculino;75;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;26;Médio Incompleto;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;56;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Psicólogo
+Feminino;13;Fundamental Incompleto;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Psicólogo
+Feminino;20;Médio Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;45;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;43;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Assistente Social
+Feminino;63;Fundamental Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;25;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;59;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;30;Superior Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Assistente Social
+Feminino;65;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;19;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;44;Médio Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;37;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente Social
+Masculino;43;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;51;Fundamental Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;35;Fundamental Completo;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;35;Médio Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;43;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Assistente Social
+Feminino;63;Não Escolarizado;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;37;Médio Incompleto;Jardim Serrano;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;23;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;18;Médio Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Assistente Social
+Feminino;21;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;PAIF;Assistente social
+Feminino;94;Fundamental Incompleto;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;59;Médio Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;54;Médio Completo;Fonte Santa;1;CRAS Prata;CRAS Alto;Público Geral;Assistente Social
+Feminino;41;Médio Completo;Artistas;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;20;Médio Incompleto;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;34;Superior Incompleto;Jardim Serrano;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;61;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;44;Médio Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;29;Superior Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;45;Fundamental Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;40;Superior Completo;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;64;Fundamental Incompleto;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;43;Médio Completo;Soberbo;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;52;Fundamental Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;59;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;35;Fundamental Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;43;Médio Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;53;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;44;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;19;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;40;Médio Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;44;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;20;Médio Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;29;Fundamental Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;17;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;29;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;61;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;21;Médio Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;19;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;61;Superior Completo;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;23;Médio Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;20;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;50;Médio Completo;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;51;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;62;Fundamental Incompleto;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;58;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;60;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;52;Superior Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;36;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;52;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;35;Superior Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;30;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;32;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;18;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;30;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;21;Médio Completo;Jardim Feo;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;50;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;PAIF;Assistente social
+Feminino;34;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;67;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;27;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;49;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;66;Fundamental Incompleto;Artistas;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;29;Médio Completo;Soberbo;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;21;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;65;Superior Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;44;Médio Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;42;Médio Completo;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;30;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;22;Médio Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;40;Superior Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;45;Fundamental Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;18;Fundamental Incompleto;Providência;2;CRAS Prata;CRAS Alto;Público Geral;Assistente social
+Masculino;36;Médio Completo;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;50;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;38;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;62;Não Escolarizado;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Masculino;49;Fundamental Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;32;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;21;Médio Completo;Panorama;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;35;Médio Completo;Panorama;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;21;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;40;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;54;Superior Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;PAIF;Assistente social
+Feminino;31;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;60;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;24;Superior Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;19;Médio Completo;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;22;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Assistente social
+Feminino;46;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;41;Médio Incompleto;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;65;Médio Completo;Taumaturgo;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;59;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;83;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;23;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;66;Fundamental Incompleto;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;75;Fundamental Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;78;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;48;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;75;Médio Completo;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;71;Fundamental Incompleto;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;65;Superior Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;34;Superior Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;64;Fundamental Incompleto;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;64;Fundamental Incompleto;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;47;Fundamental Incompleto;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;68;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;61;Fundamental Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;43;Fundamental Incompleto;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;43;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;39;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;71;Fundamental Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;62;Médio Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;49;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;65;Fundamental Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;53;Fundamental Incompleto;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;66;Fundamental Incompleto;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;60;Fundamental Incompleto;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;61;Médio Incompleto;Jardim Serrano;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;40;Superior Completo;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;60;Médio Completo;Artistas;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;76;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;52;Fundamental Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;37;Médio Completo;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;34;Fundamental Incompleto;Jardim Serrano;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;34;Fundamental Incompleto;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;58;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;65;Superior Incompleto;Pedreira;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;45;Médio Incompleto;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;82;Fundamental Incompleto;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;59;Não Escolarizado;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;51;Médio Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;61;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;75;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;57;Fundamental Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;42;Superior Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;63;Fundamental Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;47;Médio Completo;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;61;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;70;Fundamental Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;65;Fundamental Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;59;Médio Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;26;Médio Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;36;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;46;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;65;Médio Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;76;Fundamental Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;42;Médio Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;51;Fundamental Incompleto;Soberbo;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;54;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;48;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;35;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;73;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;58;Fundamental Incompleto;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;49;Superior Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;49;Superior Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;27;Superior Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;69;Médio Completo;Jardim Europa;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;36;Médio Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;55;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;70;Médio Completo;Artistas;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;69;Fundamental Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;75;Não Escolarizado;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;59;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;72;Médio Completo;Pedreira;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;33;Superior Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;40;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;33;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;32;Médio Completo;Jardim Europa;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;71;Superior Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;24;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;60;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;31;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;81;Fundamental Incompleto;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;39;Médio Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;56;Fundamental Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;48;Fundamental Incompleto;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;46;Fundamental Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;27;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;52;Superior Incompleto;Artistas;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;43;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Fundamental Incompleto;Pedreira;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;39;Médio Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;69;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;34;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;64;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;65;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;43;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;36;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;42;Superior Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;77;Fundamental Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;50;Fundamental Incompleto;Iucas;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;62;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;46;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;69;Fundamental Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;37;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;39;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;44;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;71;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;71;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;61;Fundamental Incompleto;Artistas;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;35;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;27;Médio Completo;Artistas;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;65;Médio Completo;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;29;Fundamental Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;51;Fundamental Completo;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;54;Médio Completo;Artistas;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;35;Médio Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;51;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;69;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;42;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;72;Fundamental Incompleto;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;63;Fundamental Incompleto;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;68;Médio Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;58;Superior Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;45;Fundamental Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;46;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;36;Médio Completo;Castelinho;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;63;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;37;Médio Incompleto;Jardim Serrano;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;25;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;69;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;52;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;70;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;26;Fundamental Completo;Artistas;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;55;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;63;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;57;Médio Completo;Comary;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;34;Superior Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;35;Médio Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;69;Superior Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;63;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;66;Fundamental Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;38;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;67;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;60;Fundamental Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;52;Fundamental Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;26;Superior Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;33;Médio Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;71;Não Escolarizado;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;27;Médio Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;67;Fundamental Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;77;Superior Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;44;Médio Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;42;Médio Completo;Soberbo;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;52;Fundamental Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;51;Fundamental Incompleto;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;34;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;48;Fundamental Incompleto;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;20;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;37;Superior Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;27;Superior Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;46;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;44;Médio Incompleto;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;62;Superior Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;61;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;57;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;39;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;26;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;65;Médio Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;46;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;26;Médio Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;33;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;70;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;67;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;66;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;63;Fundamental Incompleto;Água Quente;2;CRAS Prata;CRAS Alto;Público Geral;Cadastro Único
+Feminino;68;Fundamental Incompleto;Corte da Barra;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;73;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;47;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;63;Fundamental Completo;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;50;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;48;Médio Incompleto;Panorama;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;70;Médio Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;42;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;40;Superior Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;19;Médio Incompleto;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;22;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;33;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;39;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;85;Fundamental Incompleto;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;19;Superior Incompleto;Iucas;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;59;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;30;Superior Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;50;Superior Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;58;Superior Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;37;Médio Completo;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;62;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;69;Fundamental Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;39;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;56;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;47;Superior Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;69;Fundamental Incompleto;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;34;Fundamental Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;41;Superior Completo;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;75;Superior Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;51;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;52;Médio Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;54;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;35;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;19;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;43;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;47;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;37;Médio Incompleto;Jardim Serrano;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;43;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;43;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;79;Fundamental Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;43;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;36;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;42;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;36;Fundamental Incompleto;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;42;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;51;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;62;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;35;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;37;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;72;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;39;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;41;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Fundamental Incompleto;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;62;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;70;Fundamental Incompleto;Iucas;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;38;Médio Completo;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;38;Médio Completo;Soberbo;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;56;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;34;Fundamental Incompleto;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;78;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;61;Fundamental Incompleto;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;18;Médio Completo;Fazenda Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;28;Superior Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;50;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;36;Fundamental Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;57;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;42;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;24;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;22;Superior Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;20;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;66;Superior Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;57;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;26;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;35;Fundamental Completo;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;61;Fundamental Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;80;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;29;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;66;Não Escolarizado;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;73;Médio Completo;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;35;Médio Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;40;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;35;Fundamental Completo;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;36;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;61;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;50;Médio Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;43;Médio Completo;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;63;Não Escolarizado;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;36;Fundamental Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;35;Médio Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;28;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;69;Médio Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;39;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;52;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;50;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;77;Superior Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;73;Fundamental Incompleto;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;75;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;55;Médio Incompleto;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;45;Médio Incompleto;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;51;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;60;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;54;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;68;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;48;Médio Completo;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;66;Não Escolarizado;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;27;Fundamental Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;61;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;57;Fundamental Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;53;Fundamental Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;40;Fundamental Completo;Iucas;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;24;Médio Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;63;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;18;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;57;Fundamental Incompleto;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;43;Superior Completo;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;50;Médio Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;70;Superior Incompleto;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;83;Fundamental Incompleto;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;49;Superior Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;48;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;41;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;42;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;41;Médio Completo;Artistas;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;73;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;51;Fundamental Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;66;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;22;Médio Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;65;Superior Completo;Parque do Imbuí;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;40;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;30;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;29;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;36;Médio Completo;Jardim Serrano;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;30;Médio Completo;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;57;Fundamental Incompleto;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;71;Fundamental Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;49;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;43;Médio Completo;Soberbo;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;51;Médio Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;49;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;28;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;62;Superior Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;61;Fundamental Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;48;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;30;Fundamental Incompleto;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;23;Fundamental Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;31;Fundamental Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;73;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;41;Fundamental Incompleto;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;70;Fundamental Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;57;Fundamental Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Médio Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;68;Fundamental Completo;Parque do Ingá;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;44;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;39;Médio Completo;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;43;Fundamental Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;46;Fundamental Incompleto;Panorama;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;61;Fundamental Incompleto;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;52;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;40;Médio Completo;Iucas;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;69;Fundamental Completo;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;44;Médio Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;20;Médio Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;52;Médio Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;42;Superior Completo;Pimenteiras;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;17;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;58;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;57;Fundamental Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;33;Médio Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;40;Médio Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;21;Médio Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;61;Superior Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;61;Superior Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;23;Médio Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;46;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;20;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;26;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;36;Médio Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;35;Médio Incompleto;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Médio Incompleto;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Superior Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;44;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;30;Médio Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;70;Médio Incompleto;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Médio Incompleto;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;36;Médio Completo;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;55;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;65;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;86;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;46;Médio Completo;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;47;Superior Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;53;Fundamental Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;36;Superior Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;33;Médio Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;78;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;63;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;36;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;20;Médio Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;39;Médio Completo;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;68;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;40;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;43;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;29;Médio Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;73;Fundamental Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;50;Médio Completo;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;24;Superior Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;60;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;52;Médio Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;64;Médio Completo;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;80;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;68;Fundamental Incompleto;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;37;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;62;Fundamental Incompleto;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;58;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;37;Médio Completo;Parque do Ingá;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;39;Médio Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;27;Médio Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;50;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;75;Fundamental Incompleto;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;41;Fundamental Incompleto;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;64;Fundamental Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;52;Médio Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;26;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;41;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;51;Superior Completo;Soberbo;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;35;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;68;Superior Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;21;Superior Incompleto;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;89;Fundamental Completo;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;21;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;49;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;27;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;29;Médio Completo;Soberbo;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;72;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;30;Médio Completo;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;19;Médio Completo;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;43;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;83;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;40;Superior Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;40;Superior Completo;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;58;Não Escolarizado;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;22;Médio Completo;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;55;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;45;Fundamental Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;26;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;53;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;62;Superior Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;39;Superior Completo;Panorama;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;65;Superior Incompleto;Alto;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;19;Superior Incompleto;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;58;Médio Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;30;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;28;Superior Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;59;Superior Incompleto;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;79;Superior Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;64;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;66;Fundamental Incompleto;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;24;Médio Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;24;Médio Incompleto;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;40;Superior Completo;Artistas;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;29;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;61;Fundamental Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;35;Médio Completo;Panorama;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;40;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;64;Fundamental Completo;Castelinho;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;37;Médio Completo;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;46;Médio Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;27;Médio Completo;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;90;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;55;Fundamental Completo;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;52;Superior Completo;Corta Vento;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;55;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;63;Fundamental Incompleto;Morro dos Pinheiros;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;59;Fundamental Incompleto;Jardim Serrano;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;31;Superior Incompleto;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;83;Fundamental Completo;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;26;Fundamental Incompleto;Tijuca;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;55;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;60;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;37;Superior Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;39;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;31;Médio Completo;Várzea;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;44;Médio Completo;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;35;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;37;Médio Completo;Jardim Serrano;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;60;Fundamental Incompleto;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Médio Completo;Granja Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;67;Fundamental Incompleto;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;24;Superior Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;51;Médio Incompleto;Albuquerque;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;55;Fundamental Incompleto;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;64;Fundamental Incompleto;Ermitage;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;54;Médio Completo;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;56;Fundamental Incompleto;Parque São Luiz;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;50;Fundamental Incompleto;Cascata Guarani;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;42;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;PAIF;Cadastro Único
+Feminino;49;Fundamental Incompleto;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;51;Fundamental Incompleto;Soberbo;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;58;Fundamental Incompleto;Fazendinha;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;18;Médio Completo;Agriões;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Feminino;80;Fundamental Incompleto;Vale do Paraíso;1;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;57;Fundamental Incompleto;Canoas;3;CRAS Alto;CRAS Alto;Público Geral;Cadastro Único
+Masculino;71;Fundamental Incompleto;Alto;1;CRAS Alto;CRAS Alto;PAIF;Assistente social

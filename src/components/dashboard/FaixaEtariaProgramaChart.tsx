@@ -24,8 +24,8 @@ interface FaixaEtariaProgramaChartProps {
 const FaixaEtariaProgramaChart = ({ data }: FaixaEtariaProgramaChartProps) => {
   return (
     <ChartSection
-      title="Faixa Etária por Atendimento"
-      description="Distribuição etária por atendimento"
+      title="Faixa Etária por Programa"
+      description="Distribuição etária por programa"
     >
       <ResponsiveContainer width="100%" height={300}>
         <BarChart data={data} margin={{ left: 10 }}>

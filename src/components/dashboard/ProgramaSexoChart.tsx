@@ -22,7 +22,7 @@ interface ProgramaSexoChartProps {
 
 const ProgramaSexoChart = ({ data }: ProgramaSexoChartProps) => {
   return (
-    <ChartSection title="Perfil de Atendimento" description="Perfil × Gênero">
+    <ChartSection title="Perfil por Programa" description="Perfil × Gênero">
       <ResponsiveContainer width="100%" height={280}>
         <BarChart data={data} margin={{ left: 10 }}>
           <XAxis

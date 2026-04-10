@@ -5,13 +5,13 @@ interface ProgramasChartProps {
   data: { name: string; value: number }[];
 }
 
-const ProgramasChart = ({ data }: ProgramasChartProps) => {
+const AtendimentosChart = ({ data }: ProgramasChartProps) => {
   const total = data.reduce((acc, s) => acc + s.value, 0);
 
   return (
     <ChartSection
-      title="PROGRAMAS VINCULADOS"
-      description="Volume por programa"
+      title="ATENDIMENTOS VINCULADOS"
+      description="Volume por tipo de atendimento"
     >
       <div className="space-y-4">
         {data.map((programa, index) => {
@@ -43,4 +43,4 @@ const ProgramasChart = ({ data }: ProgramasChartProps) => {
   );
 };
 
-export default ProgramasChart;
+export default AtendimentosChart;

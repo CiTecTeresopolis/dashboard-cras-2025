@@ -1,24 +1,16 @@
-import { TrendingUp } from "lucide-react";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import { CRAS_UNITS } from "@/data/cras-data";
+import { Button } from "@/components/ui/button";
 
 interface DashboardHeaderProps {
-  selectedUnit: string;
-  onUnitChange: (unitId: string) => void;
+  selectedUnitLabel: string;
+  selectedPeriodLabel: string;
+  onOpenFilter: () => void;
 }
 
 const DashboardHeader = ({
-  selectedUnit,
-  onUnitChange,
+  selectedUnitLabel,
+  selectedPeriodLabel,
+  onOpenFilter,
 }: DashboardHeaderProps) => {
-  const unit = CRAS_UNITS.find((u) => u.id === selectedUnit);
-
   return (
     <header className="relative overflow-hidden dashboard-gradient rounded-3xl p-8 md:p-10 text-primary-foreground mb-8">
       {/* Decorative orbs */}
@@ -34,8 +26,9 @@ const DashboardHeader = ({
             <h1 className="text-2xl md:text-3xl font-black tracking-tight">
               Centro de Referência de Assistência Social (CRAS)
             </h1>
-            <p className="text-sm text-primary-foreground/80 mt-1 font-medium">
-              Referência 2025
+            <p className="text-md text-primary-foreground/80 mt-1 font-medium">
+              Dashboard de Atendimentos - {selectedUnitLabel} (
+              {selectedPeriodLabel})
             </p>
           </div>
         </div>
@@ -59,19 +52,18 @@ const DashboardHeader = ({
             </a>
           </div>
 
-          {/* Unit selector */}
-          <Select value={selectedUnit} onValueChange={onUnitChange}>
-            <SelectTrigger className="w-[200px] bg-white/10 backdrop-blur-sm border-white/20 text-primary-foreground hover:bg-white/20 transition-colors">
-              <SelectValue placeholder="Selecionar unidade" />
-            </SelectTrigger>
-            <SelectContent>
-              {CRAS_UNITS.map((u) => (
-                <SelectItem key={u.id} value={u.id}>
-                  {u.label}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
+          <div
+            className="space-y-2 p-4 rounded-3xl bg-white/10 border border-white/10 backdrop-blur-sm text-center cursor-pointer hover:bg-white/20 transition-colors"
+            onClick={onOpenFilter}
+            title="Clique para alterar os filtros"
+          >
+            <div className="text-base font-semibold text-primary-foreground">
+              {selectedUnitLabel}
+            </div>
+            <div className="text-base font-semibold text-primary-foreground">
+              {selectedPeriodLabel}
+            </div>
+          </div>
         </div>
       </div>
     </header>
