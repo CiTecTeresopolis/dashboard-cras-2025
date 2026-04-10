@@ -23,7 +23,7 @@ const BairrosChart = ({ data }: BairrosChartProps) => {
   return (
     <ChartSection
       title="Bairros de Origem"
-      description="Top 10 bairros com mais atendimentos"
+      description="Top 3 bairros com mais atendimentos"
     >
       <ResponsiveContainer width="100%" height={300}>
         <BarChart data={data} layout="vertical" margin={{ left: 10 }}>

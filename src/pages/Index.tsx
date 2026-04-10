@@ -110,7 +110,7 @@ const Index = () => {
 
             {/* Row 3: Details */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 mb-5">
-              <BairrosChart data={data.bairrosData.slice(0, 10)} />
+              <BairrosChart data={data.bairrosData.slice(0, 3)} />
               <DistritoChart data={data.distritosData} />
             </div>
 
