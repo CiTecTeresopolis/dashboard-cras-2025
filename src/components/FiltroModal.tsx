@@ -206,7 +206,13 @@ const FiltroModal: React.FC<FiltroModalProps> = ({
             {error}
           </div>
         ) : null}
-        <div className="flex justify-end">
+        <div className="flex justify-between mt-4">
+          <a
+            href="https://pain-is-responsivos.vercel.app/"
+            className="text-red-500 hover:underline mt-2"
+          >
+            {"Voltar aos Painéis"}
+          </a>
           <Button onClick={handleConfirmar} disabled={loading}>
             {loading ? "Validando..." : "Confirmar"}
           </Button>
