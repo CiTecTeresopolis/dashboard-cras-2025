@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
+import { DATA_STRUCTURES, getAvailableYears } from "@/data/dataManifest";
 
 interface FiltroModalProps {
   open: boolean;
@@ -32,57 +33,31 @@ const FiltroModal: React.FC<FiltroModalProps> = ({
   onConfirm,
 }) => {
   const [ano, setAno] = useState<string>("");
-  const [mes, setMes] = useState<string>("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string>("");
   const [estrutura, setEstrutura] = useState<string>("");
-  const [periodo, setPeriodo] = useState<string>("ano-todo");
   const hasConfirmedOnceRef = useRef(false);
 
-  const estruturas = [
-    { name: "alto", label: "CRAS Alto" },
-    { name: "barra", label: "CRAS Barra" },
-    { name: "prata", label: "CRAS Prata" },
-    { name: "meudon", label: "CRAS Meudon" },
-    { name: "barroso", label: "CRAS Barroso" },
-    { name: "saopedro", label: "CRAS São Pedro" },
-    { name: "bonsucesso", label: "CRAS Bonsucesso" },
-  ];
-  const anos = ["2025", "2026"];
-  const meses = [
-    "janeiro",
-    "fevereiro",
-    "março",
-    "abril",
-    "maio",
-    "junho",
-    "julho",
-    "agosto",
-    "setembro",
-    "outubro",
-    "novembro",
-    "dezembro",
-  ];
+  const anos = getAvailableYears(estrutura);
+
+  const handleSelectEstrutura = (value: string) => {
+    setEstrutura(value);
+    setAno("");
+  };
 
   const handleConfirmar = async () => {
     setError("");
 
-    if (!estrutura || !ano || (periodo === "mes" && !mes)) {
+    if (!estrutura || !ano) {
       setError("Preencha todos os filtros antes de confirmar.");
       return;
     }
 
-    const selected = estruturas.find((est) => est.name === estrutura);
+    const selected = DATA_STRUCTURES.find((est) => est.folder === estrutura);
     const unitLabel = selected?.label || estrutura;
-    const periodLabel =
-      periodo === "ano-todo"
-        ? `Ano Todo ${ano}`
-        : `${mes.charAt(0).toUpperCase() + mes.slice(1)} ${ano}`;
+    const periodLabel = `Ano ${ano}`;
 
-    const caminho =
-      periodo === "ano-todo"
-        ? `/data/${estrutura}/completo-${ano}.csv`
-        : `/data/${estrutura}/${mes}-${ano}.csv`;
+    const caminho = `/data/${estrutura}/completo-${ano}.csv`;
 
     setLoading(true);
     try {
@@ -137,13 +112,16 @@ const FiltroModal: React.FC<FiltroModalProps> = ({
             <label htmlFor="estrutura" className="text-right">
               Estrutura
             </label>
-            <Select value={estrutura} onValueChange={setEstrutura}>
+            <Select
+              value={estrutura}
+              onValueChange={handleSelectEstrutura}
+            >
               <SelectTrigger className="col-span-3">
                 <SelectValue placeholder="Selecione a estrutura" />
               </SelectTrigger>
               <SelectContent>
-                {estruturas.map((est) => (
-                  <SelectItem key={est.name} value={est.name}>
+                {DATA_STRUCTURES.map((est) => (
+                  <SelectItem key={est.folder} value={est.folder}>
                     {est.label}
                   </SelectItem>
                 ))}
@@ -154,7 +132,7 @@ const FiltroModal: React.FC<FiltroModalProps> = ({
             <label htmlFor="ano" className="text-right">
               Ano
             </label>
-            <Select value={ano} onValueChange={setAno}>
+            <Select value={ano} onValueChange={setAno} disabled={!estrutura}>
               <SelectTrigger className="col-span-3">
                 <SelectValue placeholder="Selecione o ano" />
               </SelectTrigger>
@@ -167,39 +145,6 @@ const FiltroModal: React.FC<FiltroModalProps> = ({
               </SelectContent>
             </Select>
           </div>
-          <div className="grid grid-cols-4 items-center gap-4">
-            <label htmlFor="periodo" className="text-right">
-              Período
-            </label>
-            <Select value={periodo} onValueChange={setPeriodo}>
-              <SelectTrigger className="col-span-3">
-                <SelectValue placeholder="Selecione o período" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="ano-todo">Ano Todo</SelectItem>
-                <SelectItem value="mes">Mês Específico</SelectItem>
-              </SelectContent>
-            </Select>
-          </div>
-          {periodo === "mes" && (
-            <div className="grid grid-cols-4 items-center gap-4">
-              <label htmlFor="mes" className="text-right">
-                Mês
-              </label>
-              <Select value={mes} onValueChange={setMes}>
-                <SelectTrigger className="col-span-3">
-                  <SelectValue placeholder="Selecione o mês" />
-                </SelectTrigger>
-                <SelectContent>
-                  {meses.map((m) => (
-                    <SelectItem key={m} value={m}>
-                      {m.charAt(0).toUpperCase() + m.slice(1)}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
-          )}
         </div>
         {error ? (
           <div className="rounded-md border border-destructive/20 bg-destructive/10 px-4 py-3 text-sm text-destructive">
