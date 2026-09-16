@@ -24,7 +24,7 @@ Feminino,65,Médio Completo,Agriões,1,CRAS Alto,CRAS Alto,Público Geral,Assist
 Feminino,25,Fundamental Incompleto,Agriões,1,CRAS Alto,CRAS Alto,Público Geral,Assistente social
 Feminino,24,Médio Completo,Granja Guarani,1,CRAS Alto,CRAS Alto,Público Geral,Assistente social
 Feminino,35,Médio Incompleto,Albuquerque,1,CRAS Alto,CRAS Alto,Público Geral,Assistente Social
-Masculino,75,Superior Completo,Rio de Janeiro,n/a,CRAS Alto,CRAS Alto,Público Geral,Assistente social
+Masculino,75,Superior Completo,Rio de Janeiro,N/D,CRAS Alto,CRAS Alto,Público Geral,Assistente social
 Feminino,26,Médio Incompleto,Canoas,3,CRAS Alto,CRAS Alto,Público Geral,Assistente social
 Feminino,56,Médio Completo,Tijuca,1,CRAS Alto,CRAS Alto,Público Geral,Psicólogo
 Feminino,13,Fundamental Incompleto,Tijuca,1,CRAS Alto,CRAS Alto,Público Geral,Psicólogo
@@ -1117,18 +1117,18 @@ Feminino,37,Médio Completo,Alto,1,CRAS Alto,CRAS Alto,Benefício Eventual,Cadas
 Feminino,50,Fundamental Incompleto,Pedreira,1,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
 Feminino,52,Fundamental Incompleto,Agriões,1,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
 Masculino,64,Médio Incompleto,Granja Guarani,1,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
-Feminino,55,Não Informado,Cascata Guarani,1,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
-Masculino,38,Não Informado,Canoas,3,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
+Feminino,55,N/D,Cascata Guarani,1,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
+Masculino,38,N/D,Canoas,3,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
 Feminino,28,Fundamental Completo,Várzea,1,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
 Feminino,62,Fundamental Incompleto,Canoas,3,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
-Feminino,42,Não Informado,Cascata Guarani,1,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
+Feminino,42,N/D,Cascata Guarani,1,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
 Feminino,32,Fundamental Completo,Granja Guarani,1,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
 Feminino,40,Médio Completo,Várzea,1,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
 Feminino,43,Médio Completo,Cascata Guarani,1,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
 Feminino,56,Fundamental Incompleto,Parque São Luiz,1,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
 Feminino,37,Fundamental Incompleto,Agriões,1,CRAS Alto,CRAS Alto,Benefício Eventual,Cadastro Único
 Feminino,52,Fundamental Incompleto,Alto,1,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
-Feminino,68,Superior Completo,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
+Feminino,68,Superior Completo,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
 Feminino,44,Médio Completo,Vila Muqui ,1,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
 Feminino,14,Médio Completo,Granja Guarani,1,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
 Feminino,14,Médio Completo,Granja Guarani,1,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
@@ -1136,34 +1136,34 @@ Feminino,47,Médio Completo,Santa Cecília,1,CRAS Alto,CRAS Alto,Atendimento Ger
 Feminino,14,Médio Completo,Santa Cecília,1,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
 Feminino,74,Fundamental Incompleto,Granja Guarani,1,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
 Feminino,57,Médio Completo,São Pedro ,1,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
-Feminino,71,Fundamental Incompleto,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
+Feminino,71,Fundamental Incompleto,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
 Feminino,71,Fundamental Incompleto,Granja Guarani,1,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
 Feminino,61,Fundamental Incompleto,Corta Vento ,1,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
 Feminino,57,Médio Completo,Agriões ,1,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
-Feminino,68,Fundamental Incompleto,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
-Feminino,68,Superior Completo,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
+Feminino,68,Fundamental Incompleto,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
+Feminino,68,Superior Completo,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
 Feminino,65,Médio Completo,Alto ,1,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
-Feminino,83,Fundamental Completo,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
+Feminino,83,Fundamental Completo,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
 Feminino,55,Médio Completo,Alto ,1,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
-Feminino,72,Médio Incompleto,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
-Feminino,62,Médio Completo,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
-Feminino,56,Fundamental Completo,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
-Feminino,70,Fundamental Incompleto,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
-Feminino,55,Médio Completo,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
+Feminino,72,Médio Incompleto,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
+Feminino,62,Médio Completo,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
+Feminino,56,Fundamental Completo,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
+Feminino,70,Fundamental Incompleto,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Fortalecimento de Vínculos
+Feminino,55,Médio Completo,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,50,Fundamental Completo,Pedreira ,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,57,Médio Completo,Agriões ,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,50,Fundamental Incompleto,Bairro dos Artistas,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
-Feminino,76,Fundamental Incompleto,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
-Feminino,69,Não Escolarizado,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
+Feminino,76,Fundamental Incompleto,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
+Feminino,69,Não Escolarizado,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,56,Não Escolarizado,Granja Guarani ,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
-Feminino,44,Médio Completo,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
+Feminino,44,Médio Completo,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,72,Médio Completo,Agriões ,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,62,Fundamental Incompleto,Fazendinha ,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
-Feminino,76,Fundamental Incompleto,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
-Feminino,69,Médio Completo,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
-Feminino,62,Médio Completo,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
+Feminino,76,Fundamental Incompleto,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
+Feminino,69,Médio Completo,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
+Feminino,62,Médio Completo,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,64,Médio Completo,Várzea,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
-Feminino,62,Médio Completo,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
+Feminino,62,Médio Completo,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,67,Médio Incompleto,Várzea,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,64,Superior Completo,Parque Ingá,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,63,Médio Completo,Agriões,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
@@ -1181,17 +1181,17 @@ Feminino,76,Fundamental Incompleto,Barroso,1,CRAS Alto,CRAS Alto,Atendimento Ger
 Feminino,69,Médio Completo,Barra do Imbuí,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,81,Fundamental Completo,Várzea,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,62,Médio Completo,Várzea,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
-Feminino,73,Não Informado,Granja Guarani,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
-Feminino,78,Não Informado,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
-Feminino,70,Não Informado,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
+Feminino,73,N/D,Granja Guarani,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
+Feminino,78,N/D,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
+Feminino,70,N/D,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,64,Médio Completo,Várzea,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,62,Médio Completo,Fazenda Ermitage,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,67,Médio Completo,Várzea,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,64,Superior Completo,Parque Ingá,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,63,Médio Completo,Agriões,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
-Feminino,60,Não Informado,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
+Feminino,60,N/D,N/D,N/D,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
 Feminino,15,Médio Incompleto,Cascata Guarani,1,CRAS Alto,CRAS Alto,Atendimento Geral,Cadastro Único
-Feminino,41,Fundamental Incompleto,Cascata Guarani,1,CRAS Alto,CRAS Alto,Atendimento Geral,Não Informado
+Feminino,41,Fundamental Incompleto,Cascata Guarani,1,CRAS Alto,CRAS Alto,Atendimento Geral,N/D
 Masculino,51,Fundamental Incompleto,Vale Paraíso,1,CRAS Alto,CRAS Alto,Público Geral,Assistente Social
 Feminino,43,Médio Completo,Cascata Guarani,1,CRAS Alto,CRAS Alto,Público Geral,Assistente Social
 Masculino,64,Fundamental Incompleto,Parque São Luiz,1,CRAS Alto,CRAS Alto,Público Geral,Assistente Social
@@ -1299,7 +1299,7 @@ Masculino,56,Médio Completo,Pedreira,1,CRAS Alto,CRAS Alto,Público Geral,Assis
 Feminino,48,Fundamental Incompleto,Albuquerque,1,CRAS Alto,CRAS Alto,Público Geral,Assistente Social
 Feminino,29,Médio Incompleto,Alto,1,CRAS Alto,CRAS Alto,Público Geral,Assistente Social
 Feminino,32,Médio Completo,Corta Vento,1,CRAS Alto,CRAS Alto,Público Geral,Assistente Social
-Não informado,30,Médio Completo,Morro dos Pinheiros,1,CRAS Alto,CRAS Alto,Público Geral,Assistente Social
+N/D,30,Médio Completo,Morro dos Pinheiros,1,CRAS Alto,CRAS Alto,Público Geral,Assistente Social
 Feminino,42,Médio Completo,Alto,1,CRAS Alto,CRAS Alto,Público Geral,Assistente Social
 Feminino,20,Médio Completo,Pedreira,1,CRAS Alto,CRAS Alto,Público Geral,Assistente Social
 Feminino,41,Médio Completo,Cascata Guarani,1,CRAS Alto,CRAS Alto,Público Geral,Assistente Social
@@ -3019,7 +3019,7 @@ Feminino,49,Fundamental Incompleto,Morro dos Pinheiros,1,CRAS Alto,CRAS Alto,PAI
 Feminino,49,Fundamental Incompleto,Ermitage ,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
 Feminino,41,Fundamental Incompleto,Cascata Guarani ,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
 Feminino,55,Fundamental Incompleto,Parque São Luiz,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
-Feminino,42,Não Informado,Cascata Guarani ,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
+Feminino,42,N/D,Cascata Guarani ,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
 Feminino,37,Médio Completo,Alto ,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
 Feminino,56,Fundamental Incompleto,Parque São Luiz,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
 Feminino,44,Fundamental Incompleto,Cascata Guarani ,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
@@ -3029,7 +3029,7 @@ Feminino,62,Fundamental Incompleto,Granja Guarani ,1,CRAS Alto,CRAS Alto,PAIF,As
 Feminino,62,Fundamental Incompleto,Canoas ,3,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
 Feminino,40,Médio Incompleto,Várzea,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
 Feminino,37,Fundamental Incompleto,Agriões,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
-Feminino,Não Informado,Não Informado,Cascata Guarani ,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
+Feminino,N/D,N/D,Cascata Guarani ,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
 Feminino,28,Médio Completo,Várzea,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
 Feminino,55,Médio Completo,Albuquerque ,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
 Feminino,65,Médio Incompleto,Pimenteiras ,1,CRAS Alto,CRAS Alto,PAIF,Assistente Social 
@@ -3101,12 +3101,12 @@ Feminino,68,Superior Completo,Várzea,1,CRAS Alto,CRAS Alto,Público Geral,Forta
 Feminino,65,Médio Completo,Alto ,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
 Feminino,83,Fundamental Completo,Alto ,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
 Feminino,55,Médio Completo,Alto ,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
-Feminino,72,Médio Incompleto,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
+Feminino,72,Médio Incompleto,N/D,N/D,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
 Feminino,62,Médio Completo,Barra do Imbuí,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
-Feminino,74,Fundamental Completo,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
-Feminino,70,Fundamental Incompleto,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
-Feminino,72,Fundamental Incompleto,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
-Feminino,67,Fundamental Incompleto,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
+Feminino,74,Fundamental Completo,N/D,N/D,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
+Feminino,70,Fundamental Incompleto,N/D,N/D,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
+Feminino,72,Fundamental Incompleto,N/D,N/D,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
+Feminino,67,Fundamental Incompleto,N/D,N/D,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
 Feminino,68,Médio Completo,Agriões ,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
 Feminino,57,Fundamental Incompleto,Barra do Imbuí,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
 Feminino,63,Fundamental Incompleto,Várzea,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
@@ -3114,11 +3114,11 @@ Feminino,68,Fundamental Incompleto,Araras,1,CRAS Alto,CRAS Alto,Público Geral,F
 Feminino,73,Médio Completo,Agriões ,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
 Feminino,71,Fundamental Completo,Jardim Meudon ,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
 Feminino,71,Fundamental Incompleto,Fazendinha,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
-Feminino,56,Não Informado,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
+Feminino,56,N/D,N/D,N/D,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
 Feminino,52,Fundamental Incompleto,Alto ,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
 Feminino,68,Superior Completo,Várzea,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
 Feminino,44,Médio Completo,Alto ,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
-Feminino,50,Não Informado,Não Informado,Não Informado,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
+Feminino,50,N/D,N/D,N/D,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
 Feminino,14,Médio Completo,Granja Guarani ,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
 Feminino,14,Médio Completo,Alto ,1,CRAS Alto,CRAS Alto,Público Geral,Fortalecimento de Vínculos 
 Feminino,20,Médio Completo,Vale Paraíso,1,CRAS Alto,CRAS Alto,Público Geral,Cadastro Único 
